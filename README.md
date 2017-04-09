@@ -26,6 +26,12 @@ Write code to create a “what is different” from the previous statement to th
 
 - Information Extraction:
 
+   
+```
+Train a tagging and information extraction program on different interest rate regimes and check the results when passing documents from a different interest rate regime 
+
+```
+
 ```
 Extract information on the base interest rate and use pattern matching to find out the target fed funds 
 rate from the statement from 2005 to present
@@ -90,6 +96,6 @@ P(Lower Rates | Note Neutral)
 Other ideas:
 
 4. Explore applying word sense disambiguation to FOMC statements and examine if WSD results are different among statements where there are changes in the base rate or policy
-5. Train a tagging and information extraction program on different interest rate regimes and check the results when passing documents from a different interest rate regime 
+
 
 ANYTHING ELSE?
