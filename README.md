@@ -31,11 +31,92 @@ Extract information on the base interest rate and use pattern matching to find o
 rate from the statement from 2005 to present
 ```
 
-3. Utilize naïve bayes to see if we can train a program to detect whether a statement indicates
+Possible Method: Utilize MaxEnt
+
+Develop a tagging system (our own), and identify number values and action words, for example:
+
+O (other)
+N (number value)
+A (action)
+U (unit)
+
+In  O
+
+view  O
+
+of  O
+
+realized  O
+
+and O
+
+expected  O
+
+labor O
+
+market  O
+
+conditions  O
+
+and O
+
+inflation O
+
+, O
+
+the O
+
+Committee O
+
+decided A
+
+to  O
+
+raise A
+
+the O
+
+target  O
+
+range O
+
+for O
+
+the O
+
+federal O
+
+funds O
+
+rate  O
+
+to  O
+
+3/4 N
+
+to  N
+
+1 N
+
+percent U
+
+. O
+
+- Naive Bayes:
+```
+Utilize naïve bayes to see if we can train a program to detect whether a statement indicates
 whether the Fed is more likely to raise or lower or keep interest rates the same?
-a. The work flow would be: P(Neutral or Not Neutral), Probability(Raise Rates | Not
-Neutral), Probability(Lower Rates | Note Neutral)
-4. Explore applying word sense disambiguation to FOMC statements and examine if WSD results
-are different among statements where there are changes in the base rate or policy
-5. Train a tagging and information extraction program on different interest rate regimes and check
-the results when passing documents from a different interest rate regime 
+```
+The set of equations would be: 
+```
+P(Neutral or Not Neutral) 
+P(Raise Rates | Not Neutral) 
+P(Lower Rates | Note Neutral)
+```
+
+Other ideas:
+
+4. Explore applying word sense disambiguation to FOMC statements and examine if WSD results are different among statements where there are changes in the base rate or policy
+5. Train a tagging and information extraction program on different interest rate regimes and check the results when passing documents from a different interest rate regime 
+
+ANYTHING ELSE?
