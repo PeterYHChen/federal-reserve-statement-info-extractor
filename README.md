@@ -21,11 +21,15 @@ The following ideas are:
 
 - Unspecified Text Comparison: 
 ```
-Write code to create a “what is different” from the previous statement to the current statement
+Write code to create a “what is different” from the previous statement to the current statement, similar to the WSJ
 ```
 
-1. Extract information on the base interest rate and use pattern matching to find out the target fed funds rate from the statement from 2005 to present
+- Information Extraction:
 
+```
+Extract information on the base interest rate and use pattern matching to find out the target fed funds 
+rate from the statement from 2005 to present
+```
 
 3. Utilize naïve bayes to see if we can train a program to detect whether a statement indicates
 whether the Fed is more likely to raise or lower or keep interest rates the same?
