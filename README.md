@@ -17,10 +17,16 @@ some unspecified text comparison.
 The extraction is a substantial job in itself, so you probably will want to cut back on the total number of tasks.
 ```
 
-The following information extraction ideas are:
-1. Extract information on the base interest rate and use pattern matching to find out the target fed
-funds rate from the statement from 2005 to present
-2. Write code to create a “what is different” from the previous statement to the current statement
+The following ideas are:
+
+- Unspecified Text Comparison: 
+```
+Write code to create a “what is different” from the previous statement to the current statement
+```
+
+1. Extract information on the base interest rate and use pattern matching to find out the target fed funds rate from the statement from 2005 to present
+
+
 3. Utilize naïve bayes to see if we can train a program to detect whether a statement indicates
 whether the Fed is more likely to raise or lower or keep interest rates the same?
 a. The work flow would be: P(Neutral or Not Neutral), Probability(Raise Rates | Not
