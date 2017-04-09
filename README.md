@@ -41,66 +41,39 @@ A (action)
 U (unit)
 
     In  O
-
     view  O
-
     of  O
-
     realized  O
-
     and O
-
     expected  O
-
     labor O
-
     market  O
-
     conditions  O
-
     and O
-
     inflation O
-
     , O
-
     the O
-
     Committee O
-
     decided A
-
     to  O
-
     raise A
-
     the O
-
     target  O
-
     range O
-
     for O
-
     the O
-
     federal O
-
     funds O
-
     rate  O
-
     to  O
-
     3/4 N
-
     to  N
-
     1 N
-
     percent U
-
     . O
+
+I can mark a training corpus as well. 
+
 
 - Naive Bayes:
 ```
