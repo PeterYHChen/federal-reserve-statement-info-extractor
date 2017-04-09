@@ -40,67 +40,67 @@ N (number value)
 A (action)
 U (unit)
 
-In  O
+  In  O
 
-view  O
+  view  O
 
-of  O
+  of  O
 
-realized  O
+  realized  O
 
-and O
+  and O
 
-expected  O
+  expected  O
 
-labor O
+  labor O
 
-market  O
+  market  O
 
-conditions  O
+  conditions  O
 
-and O
+  and O
 
-inflation O
+  inflation O
 
-, O
+  , O
 
-the O
+  the O
 
-Committee O
+  Committee O
 
-decided A
+  decided A
 
-to  O
+  to  O
 
-raise A
+  raise A
 
-the O
+  the O
 
-target  O
+  target  O
 
-range O
+  range O
 
-for O
+  for O
 
-the O
+  the O
 
-federal O
+  federal O
 
-funds O
+  funds O
 
-rate  O
+  rate  O
 
-to  O
+  to  O
 
-3/4 N
+  3/4 N
 
-to  N
+  to  N
 
-1 N
+  1 N
 
-percent U
+  percent U
 
-. O
+  . O
 
 - Naive Bayes:
 ```
