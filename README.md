@@ -21,7 +21,7 @@ The following ideas are:
 
 - Unspecified Text Comparison: 
 ```
-Write code to create a “what is different” from the previous statement to the current statement, similar to the WSJ
+Write code to create a “what is different” from the previous statement to the current statement, similar to WSJ
 ```
 
 - Information Extraction:
