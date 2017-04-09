@@ -28,7 +28,8 @@ Write code to create a “what is different” from the previous statement to th
 
    
 ```
-Train a tagging and information extraction program on different interest rate regimes and check the results when passing documents from a different interest rate regime 
+Train a tagging and information extraction program on different interest rate regimes and check the results 
+when passing documents from a different interest rate regime 
 
 ```
 
