@@ -35,10 +35,10 @@ Possible Method: Utilize MaxEnt
 
 Develop a tagging system (our own), and identify number values and action words, for example:
 
-O (other)
-N (number value)
-A (action)
-U (unit)
+    O (other)
+    N (number value)
+    A (action)
+    U (unit)
 
     In  O
     view  O
