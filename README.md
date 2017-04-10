@@ -26,6 +26,13 @@ Write code to create a “what is different” from the previous statement to th
 
 - Information Extraction:
 
+   
+```
+Train a tagging and information extraction program on different interest rate regimes and check the results 
+when passing documents from a different interest rate regime 
+
+```
+
 ```
 Extract information on the base interest rate and use pattern matching to find out the target fed funds 
 rate from the statement from 2005 to present
@@ -35,72 +42,45 @@ Possible Method: Utilize MaxEnt
 
 Develop a tagging system (our own), and identify number values and action words, for example:
 
-O (other)
-N (number value)
-A (action)
-U (unit)
+    O (other)
+    N (number value)
+    A (action)
+    U (unit)
 
-In  O
+    In  O
+    view  O
+    of  O
+    realized  O
+    and O
+    expected  O
+    labor O
+    market  O
+    conditions  O
+    and O
+    inflation O
+    , O
+    the O
+    Committee O
+    decided A
+    to  O
+    raise A
+    the O
+    target  O
+    range O
+    for O
+    the O
+    federal O
+    funds O
+    rate  O
+    to  O
+    3/4 N
+    to  N
+    1 N
+    percent U
+    . O
 
-view  O
+I can mark a training corpus as well. 
 
-of  O
-
-realized  O
-
-and O
-
-expected  O
-
-labor O
-
-market  O
-
-conditions  O
-
-and O
-
-inflation O
-
-, O
-
-the O
-
-Committee O
-
-decided A
-
-to  O
-
-raise A
-
-the O
-
-target  O
-
-range O
-
-for O
-
-the O
-
-federal O
-
-funds O
-
-rate  O
-
-to  O
-
-3/4 N
-
-to  N
-
-1 N
-
-percent U
-
-. O
 
 - Naive Bayes:
 ```
@@ -117,6 +97,6 @@ P(Lower Rates | Note Neutral)
 Other ideas:
 
 4. Explore applying word sense disambiguation to FOMC statements and examine if WSD results are different among statements where there are changes in the base rate or policy
-5. Train a tagging and information extraction program on different interest rate regimes and check the results when passing documents from a different interest rate regime 
+
 
 ANYTHING ELSE?
