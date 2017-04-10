@@ -31,6 +31,7 @@ a
 moderate
 pace
 .
+
 Job
 gains
 remained
@@ -46,6 +47,7 @@ in
 recent
 months
 .
+
 Household
 spending
 has
@@ -63,6 +65,7 @@ have
 firmed
 somewhat
 .
+
 Inflation
 has
 increased
@@ -99,6 +102,7 @@ below
 2
 percent
 .
+
 Market-based
 measures
 of
@@ -120,6 +124,7 @@ changed
 on
 balance
 .
+
 Consistent
 with
 its
@@ -137,6 +142,7 @@ and
 price
 stability
 .
+
 The
 Committee
 expects
@@ -181,6 +187,7 @@ the
 medium
 term
 .
+
 Near-term
 risks
 to
@@ -191,6 +198,7 @@ appear
 roughly
 balanced
 .
+
 The
 Committee
 continues
@@ -206,6 +214,7 @@ and
 financial
 developments
 .
+
 In
 view
 of
@@ -237,6 +246,7 @@ to
 1
 percent
 .
+
 The
 stance
 of
@@ -263,6 +273,7 @@ to
 percent
 inflation
 .
+
 In
 determining
 the
@@ -303,6 +314,7 @@ and
 percent
 inflation
 .
+
 This
 assessment
 will
@@ -338,6 +350,7 @@ and
 international
 developments
 .
+
 The
 Committee
 will
@@ -355,6 +368,7 @@ symmetric
 inflation
 goal
 .
+
 The
 Committee
 expects
@@ -402,6 +416,7 @@ the
 longer
 run
 .
+
 However
 ,
 the
@@ -424,6 +439,7 @@ by
 incoming
 data
 .
+
 The
 Committee
 is
@@ -479,6 +495,7 @@ well
 under
 way
 .
+
 This
 policy
 ,
@@ -501,6 +518,7 @@ accommodative
 financial
 conditions
 .
+
 Voting
 for
 the
@@ -554,6 +572,7 @@ K
 .
 Tarullo
 .
+
 Voting
 against
 the
@@ -579,3 +598,4 @@ federal
 funds
 rate
 .
+
