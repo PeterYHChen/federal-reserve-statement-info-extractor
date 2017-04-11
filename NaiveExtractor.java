@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -26,15 +27,18 @@ public class NaiveExtractor {
         File directory = new File(directoryPath);
         List<String> results = new ArrayList<>();
 
-        for (File statement : directory.listFiles()) {
+        File[] files = directory.listFiles();
+        Arrays.sort(files);
+        for (int i = 0; i < files.length; i++) {
+            File statement = files[i];
             List<String> lines = Files.readAllLines(statement.toPath(), StandardCharsets.UTF_8);
             List<String> words = new ArrayList<>();
 
             System.out.println("Processing file " + statement);
             results.add(statement.getName());
-            for (int i = 0; i < lines.size(); i++) {
+            for (int j = 0; j < lines.size(); j++) {
     //            System.out.println("Processing line " + i);
-                String word = lines.get(i).trim();
+                String word = lines.get(j).trim();
                 if (word.equals("")) {
                     // process words and get features
                     results.addAll(formSentence(words));
