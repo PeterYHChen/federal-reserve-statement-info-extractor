@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by yonghong on 4/11/17.
@@ -99,9 +96,12 @@ public class NaiveExtractor {
             }
         }
 
-        if (isTargetSentence && hasNumbers) {
+        Set<String> uniqueWords = new HashSet<>();
+        uniqueWords.addAll(words);
+        // ensure Committee perform this action
+        if (isTargetSentence && hasNumbers && words.contains("Committee")) {
             results.add(keyword + ": " + values);
-            results.add(sentence.toString());
+//            results.add(sentence.toString());
         }
 
         return results;
