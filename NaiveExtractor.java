@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.*;
-
 /**
  * Created by yonghong on 4/11/17.
  */
@@ -30,15 +29,17 @@ public class NaiveExtractor {
             File statement = files[i];
             List<String> lines = Files.readAllLines(statement.toPath(), StandardCharsets.UTF_8);
             List<String> words = new ArrayList<>();
+            String fileName = statement.getName().substring(0, statement.getName().indexOf("."));
+            System.out.println("Processing file " + fileName);
+            String sentence;
 
-            System.out.println("Processing file " + statement);
-            results.add(statement.getName());
             for (int j = 0; j < lines.size(); j++) {
-    //            System.out.println("Processing line " + i);
                 String word = lines.get(j).trim();
                 if (word.equals("")) {
-                    // process words and get features
-                    results.addAll(formSentence(words));
+                    // process words
+                    sentence = formSentence(words);
+                    if (!sentence.isEmpty())
+                        results.add(fileName + "\t" + sentence);
                     words.clear();
                 } else {
                     words.add(word);
@@ -47,7 +48,9 @@ public class NaiveExtractor {
 
             // process the last sentence of words
             if (!words.isEmpty()) {
-                results.addAll(formSentence(words));
+                sentence = formSentence(words);
+                if (!sentence.isEmpty())
+                    results.add(fileName + "\t" + sentence);
             }
 
             results.add("");
@@ -56,7 +59,7 @@ public class NaiveExtractor {
         // print results to file
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter(new FileWriter("extracted-sentences", false));
+            pw = new PrintWriter(new FileWriter("federalFundsRate.txt", false));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -69,11 +72,10 @@ public class NaiveExtractor {
         pw.close();
     }
 
-    private static List<String> formSentence(List<String> words) {
-        List<String> results = new ArrayList<>();
+    private static String formSentence(List<String> words) {
         boolean isTargetSentence = false;
         boolean hasNumbers = false;
-
+        StringBuffer result = new StringBuffer();
         StringBuffer sentence = new StringBuffer();
         String keyword = "";
         String values = "";
@@ -90,7 +92,9 @@ public class NaiveExtractor {
 
             if (!hasNumbers && i + 2 < words.size()) {
                 if (isNumber(words.get(i)) && words.get(i+1).equals("to") && isNumber(words.get(i+2))) {
-                    values = words.get(i) + " " + words.get(i + 1) + " " + words.get(i + 2);
+//                    values = words.get(i) + " " + words.get(i + 1) + " " + words.get(i + 2);
+                    values = words.get(i) + "\t" + words.get(i) + "\t" + words.get(i+2) + "\t" + words.get(i+2);
+
                     hasNumbers = true;
                 }
             }
@@ -100,11 +104,12 @@ public class NaiveExtractor {
         uniqueWords.addAll(words);
         // ensure Committee perform this action
         if (isTargetSentence && hasNumbers && words.contains("Committee")) {
-            results.add(keyword + ": " + values);
-//            results.add(sentence.toString());
+            result.append(values);
+//            result.append(keyword + ": " + values);
+//            result.append("\n" + sentence.toString());
         }
 
-        return results;
+        return result.toString();
     }
 
     private static boolean isNumber(String value) {
