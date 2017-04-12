@@ -1,0 +1,17 @@
+Based on our discussion yesterday we are currently exploring the following idea:
+ 
+•Test a Naïve information extractor for the base rate versus a MaxEnt information extractor for the base rate
+
+•Steps for building a MaxEnt information extractor:
+       1) After getting the statements into place, select statements for a training corpus
+       2) Part of Speech Tag the training corpus and the statements
+       3) Apply our own TAGS to the training corpus
+       4) Use MaxEnt to tag the 'test' statements and see if it will identify the correct base rate (and associated changes)
+ 
+Where are we in the process:
+ 
+•David and I are cleaning the statements and are half-way through
+
+•I am in the process of selecting a training corpus for the MaxEnt tagger
+ 
+By the end of the week (Saturday), the goal is to have the training corpus tagged with POS and our own tags for extracting the rate, and to test the tagger on one test statement to see result.  If there is a problem, then we will reach out to the professor for some advice.  
