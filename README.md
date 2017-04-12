@@ -35,10 +35,18 @@ when passing documents from a different interest rate regime
 
 ```
 Extract information on the base interest rate and use pattern matching to find out the target fed funds 
-rate from the statement from 2005 to present
+rate from the statement from 2006 to present.  Compare the results of a naive information extractor to a MaxEnt tagger.
 ```
 
 Possible Method: Utilize MaxEnt
+
+```
+Work Flow:
+1) After getting the statements into place, select statements for a training corpus
+2) Part of Speech Tag the trainign corpus and the statements
+3) Apply our own TAGS to the training corpus
+4) Use MaxEnt to tag the 'test' statements and see if it will identify the correct base rate (and associated changes)
+```
 
 Develop a tagging system (our own), and identify number values and action words, for example:
 
