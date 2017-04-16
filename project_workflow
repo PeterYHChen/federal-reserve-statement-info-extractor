@@ -15,3 +15,21 @@ Where are we in the process:
 •I am in the process of selecting a training corpus for the MaxEnt tagger
  
 By the end of the week (Saturday), the goal is to have the training corpus tagged with POS and our own tags for extracting the rate, and to test the tagger on one test statement to see result.  If there is a problem, then we will reach out to the professor for some advice.  
+
+
+
+April 16 2017:  
+
+Training corpus have the POS, now tags need to be assigned to to information extract the following:
+
+1) Decision on Base Rate
+2) New Base Rate
+3) Unit of Base Rate
+4) Other
+
+Tags:
+
+A (Decision)
+B (final base rate)
+U (Units)
+O (other)
