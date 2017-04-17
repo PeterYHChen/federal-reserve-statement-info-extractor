@@ -30,8 +30,7 @@ Training corpus have the POS, now tags need to be assigned to to information ext
 Tags:
 
 A (Decision)
-B (final base rate)
-U (Units)
+U (Units, percent, billion)
+T (tool)
 O (other)
-D (direction)
-M (magnitude)
+N (number)
