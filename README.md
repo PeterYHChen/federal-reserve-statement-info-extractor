@@ -106,5 +106,6 @@ Other ideas:
 
 4. Explore applying word sense disambiguation to FOMC statements and examine if WSD results are different among statements where there are changes in the base rate or policy
 
+5. Create a tool that uses the CONLL database and name tagging tool to identify voters of FOMC committee and devleop a program that will be able to track a voter's history
 
-ANYTHING ELSE?
+
