@@ -50,11 +50,9 @@ public class NaiveExtractor {
             }
 
             fileContents.put(fileName, sentences);
-            results.addAll(extractFundsRate(fileName, sentences));
-            results.add("");
         }
 
-        writeTofiles(results, "federalFundsRate.txt");
+        extractFundsRate(fileContents, "federalFundsRate.txt");
         extractVotingNames(fileContents, "votingNames.txt");
     }
 
@@ -64,8 +62,8 @@ public class NaiveExtractor {
 
         for (String fileName : files.keySet()) {
             votingNamesMap.put(fileName, new HashSet<>());
-
             List<List<String>> sentences = files.get(fileName);
+
             for (List<String> words : sentences) {
                 boolean isTargetSentence = false;
                 boolean hasNumbers = false;
@@ -137,50 +135,55 @@ public class NaiveExtractor {
 
         return results;
     }
-    private static List<String> extractFundsRate(String fileName, List<List<String>> sentences) {
+    private static void extractFundsRate(Map<String, List<List<String>>> files, String outputFile) {
         List<String> results = new ArrayList<>();
 
-        for (List<String> words : sentences) {
-            boolean isTargetSentence = false;
-            boolean hasNumbers = false;
-            StringBuffer result = new StringBuffer();
-            StringBuffer sentence = new StringBuffer();
-            String keyword = "";
-            String rangeBegin = "";
-            String rangeEnd = "";
+        for (String fileName : files.keySet()) {
+            List<List<String>> sentences = files.get(fileName);
 
-            for (int i = 0; i < words.size(); i++) {
-                sentence.append(" " + words.get(i));
+            for (List<String> words : sentences) {
+                boolean isTargetSentence = false;
+                boolean hasNumbers = false;
+                StringBuffer result = new StringBuffer();
+                StringBuffer sentence = new StringBuffer();
+                String keyword = "";
+                String rangeBegin = "";
+                String rangeEnd = "";
 
-                if (!isTargetSentence && i + 2 < words.size()) {
-                    if (words.get(i).equals("federal") && words.get(i+1).equals("funds") && words.get(i+2).equals("rate")) {
-                        keyword = words.get(i) + " " + words.get(i + 1) + " " + words.get(i + 2);
-                        isTargetSentence = true;
+                for (int i = 0; i < words.size(); i++) {
+                    sentence.append(" " + words.get(i));
+
+                    if (!isTargetSentence && i + 2 < words.size()) {
+                        if (words.get(i).equals("federal") && words.get(i + 1).equals("funds") && words.get(i + 2).equals("rate")) {
+                            keyword = words.get(i) + " " + words.get(i + 1) + " " + words.get(i + 2);
+                            isTargetSentence = true;
+                        }
+                    }
+
+                    if (!hasNumbers && i + 2 < words.size()) {
+                        if (isNumber(words.get(i)) && words.get(i + 1).equals("to") && isNumber(words.get(i + 2))) {
+                            rangeBegin = words.get(i);
+                            rangeEnd = words.get(i + 2);
+                            hasNumbers = true;
+                        }
                     }
                 }
 
-                if (!hasNumbers && i + 2 < words.size()) {
-                    if (isNumber(words.get(i)) && words.get(i+1).equals("to") && isNumber(words.get(i+2))) {
-                        rangeBegin = words.get(i);
-                        rangeEnd = words.get(i+2);
-                        hasNumbers = true;
-                    }
+                Set<String> uniqueWords = new HashSet<>();
+                uniqueWords.addAll(words);
+                // ensure Committee perform this action
+                if (isTargetSentence && hasNumbers && uniqueWords.contains("Committee")) {
+                    result.append(formatFederalFundsRateOutput(fileName, rangeBegin, rangeEnd));
+                }
+
+                if (!result.toString().isEmpty()) {
+                    results.add(result.toString());
                 }
             }
-
-            Set<String> uniqueWords = new HashSet<>();
-            uniqueWords.addAll(words);
-            // ensure Committee perform this action
-            if (isTargetSentence && hasNumbers && uniqueWords.contains("Committee")) {
-                result.append(formatFederalFundsRateOutput(fileName, rangeBegin, rangeEnd));
-            }
-
-            if (!result.toString().isEmpty()) {
-                results.add(result.toString());
-            }
+            results.add("");
         }
 
-        return results;
+        writeTofiles(results, outputFile);
     }
 
     // form output to show graph in Google Chart API
