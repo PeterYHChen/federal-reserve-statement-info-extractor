@@ -29,9 +29,9 @@ Training corpus have the POS, now tags need to be assigned to to information ext
 
 Tags:
 
-A (Decision)
-U (Units, percent, billion)
-T (tool)
+A (Decision)   Example words:  "decided", "approved", "purchase", "purchasing"
+U (Units, percent, billion) "basis-points", "percent", "billion"
+T (tool)   "federal funds rate", "Treasury and asset-backed securities", "mortgage-backed", "agency debt", "discount rate"
 O (other)
-N (number)
-D (Direction)
+N (number) "6-1/4, 0 1/4, 45 (numbers generally)"   However I am NOT marking days of the month
+D (Direction)  "lower, raise, keep, extend, increase, decrease, continue"
