@@ -108,7 +108,7 @@ However	RB	O
 ,	,	O
 the	DT	O
 Committee	NNP	O
-judges	NNS	O
+judges	NNS	A
 that	IN	O
 some	DT	O
 inflation	NN	O
@@ -120,7 +120,7 @@ it	PRP	O
 will	MD	O
 continue	VB	O
 to	TO	O
-monitor	VB	O
+monitor	VB	A
 inflation	NN	O
 developments	NNS	O
 carefully	RB	O
@@ -138,7 +138,7 @@ last	JJ	O
 regular	JJ	O
 meeting	NN	O
 have	VBP	O
-increased	VBN	O
+increased	VBN	D
 the	DT	O
 uncertainty	NN	O
 surrounding	VBG	O
@@ -150,9 +150,9 @@ outlook	NN	O
 The	DT	O
 Committee	NNP	O
 will	MD	O
-continue	VB	O
+continue	VB	D
 to	TO	O
-assess	VB	O
+assess	VB	A
 the	DT	O
 effects	NNS	O
 of	IN	O
@@ -165,7 +165,7 @@ economic	JJ	O
 prospects	NNS	O
 and	CC	O
 will	MD	O
-act	VB	O
+act	VB	A
 as	IN	O
 needed	JJ	O
 to	TO	O
@@ -178,13 +178,13 @@ economic	JJ	O
 growth	NN	O
 .	.	O
 
-Voting	NNP	O
+Voting	NNP	A
 for	IN	O
 the	DT	O
 FOMC	NN	O
-monetary	JJ	O
-policy	NN	O
-action	NN	O
+monetary	JJ	T
+policy	NN	T
+action	NN	T
 were	VBD	O
 :	:	O
 Ben	NNP	O
@@ -243,7 +243,7 @@ Warsh	''	O
 In	IN	O
 a	DT  O
 related	JJ  O
-action	NN  O
+action	NN  A
 ,	,  O
 the	DT  O
 Board	NNP  O
@@ -267,11 +267,11 @@ percent	NN  U
 In	IN  O
 taking	VBG  O
 this	DT  O
-action	NN  O
+action	NN  A
 ,	,  O
 the	DT  O
 Board	NNP  O
-approved	VBD  O
+approved	VBD  A
 the	DT  O
 requests	NNS  O
 submitted	VBD  O
@@ -402,270 +402,270 @@ partly	RB	O
 by	IN	O
 further	JJ	O
 reducing	VBG	O
-the	DT
-ability	NN
-of	IN
-households	NNS
-and	CC
-businesses	NNS
-to	TO
-obtain	VB
-credit	NN
-.	.
+the	DT	O
+ability	NN	O
+of	IN	O
+households	NNS	O
+and	CC	O
+businesses	NNS	O
+to	TO	O
+obtain	VB	O
+credit	NN	O
+.	.	O
 
-In	IN
-light	NN
-of	IN
-the	DT
-declines	NNS
-in	IN
-the	DT
-prices	NNS
-of	IN
-energy	NN
-and	CC
-other	JJ
-commodities	NNS
-and	CC
-the	DT
-weaker	JJR
-prospects	NNS
-for	IN
-economic	JJ
-activity	NN
-,	,
-the	DT
-Committee	NNP
-expects	VBZ
-inflation	NN
-to	TO
-moderate	JJ
-in	IN
-coming	VBG
-quarters	NNS
-to	TO
-levels	NNS
-consistent	JJ
-with	IN
-price	NN
-stability	NN
-.	.
+In	IN	O
+light	NN	O
+of	IN	O
+the	DT	O
+declines	NNS	O
+in	IN	O
+the	DT	O
+prices	NNS	O
+of	IN	O
+energy	NN	O
+and	CC	O
+other	JJ	O
+commodities	NNS	O
+and	CC	O
+the	DT	O
+weaker	JJR	O
+prospects	NNS	O
+for	IN	O
+economic	JJ	O
+activity	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+expects	VBZ	O
+inflation	NN	O
+to	TO	O
+moderate	JJ	O
+in	IN	O
+coming	VBG	O
+quarters	NNS	O
+to	TO	O
+levels	NNS	O
+consistent	JJ	O
+with	IN	O
+price	NN	O
+stability	NN	O
+.	.	O
 
-Recent	JJ
-policy	NN
-actions	NNS
-,	,
-including	VBG
-today	NN
-'s	POS
-rate	NN  
-reduction	NN
-,	,
-coordinated	VBN
-interest	NN
-rate	NN
-cuts	NNS
-by	IN
-central	JJ
-banks	NNS
-,	,
-extraordinary	JJ
-liquidity	NN
-measures	NNS
-,	,
-and	CC
-official	NN
-steps	NNS
-to	TO
-strengthen	VB
-financial	JJ
-systems	NNS
-,	,
-should	MD
-help	VB
-over	IN
-time	NN
-to	TO
-improve	VB
-credit	NN
-conditions	NNS
-and	CC
-promote	VB
-a	DT
-return	NN
-to	TO
-moderate	JJ
-economic	JJ
-growth	NN
-.	.
+Recent	JJ	O
+policy	NN	A
+actions	NNS	A
+,	,	O
+including	VBG	O
+today	NN	O
+'s	POS	O
+rate	NN	O  
+reduction	NN	D
+,	,	O
+coordinated	VBN	O
+interest	NN	T
+rate	NN	T
+cuts	NNS	D
+by	IN	O
+central	JJ	O
+banks	NNS	O
+,	,	O
+extraordinary	JJ	T
+liquidity	NN	T
+measures	NNS	T
+,	,	O
+and	CC	O
+official	NN	O
+steps	NNS	O
+to	TO	O
+strengthen	VB	O
+financial	JJ	O
+systems	NNS	O
+,	,	O
+should	MD	O
+help	VB	O
+over	IN	O
+time	NN	O
+to	TO	O
+improve	VB	O
+credit	NN	O
+conditions	NNS	O
+and	CC	O
+promote	VB	O
+a	DT	O
+return	NN	O
+to	TO	O
+moderate	JJ	O
+economic	JJ	O
+growth	NN	O
+.	.	O
 
-Nevertheless	RB
-,	,
-downside	NN
-risks	NNS
-to	TO
-growth	NN
-remain	VBP
-.	.
+Nevertheless	RB	O
+,	,	O
+downside	NN	O
+risks	NNS	O
+to	TO	O
+growth	NN	O
+remain	VBP	O
+.	.	O
 
-The	DT
-Committee	NNP
-will	MD
-monitor	VB
-economic	JJ
-and	CC
-financial	JJ
-developments	NNS
-carefully	RB
-and	CC
-will	MD
-act	VB
-as	IN
-needed	JJ
-to	TO
-promote	VB
-sustainable	JJ
-economic	JJ
-growth	NN
-and	CC
-price	NN
-stability	NN
-.	.
+The	DT	O
+Committee	NNP	O
+will	MD	O
+monitor	VB	O
+economic	JJ	O
+and	CC	O
+financial	JJ	O
+developments	NNS	O
+carefully	RB	O
+and	CC	O
+will	MD	O
+act	VB	O
+as	IN	O
+needed	JJ	O
+to	TO	O
+promote	VB	O
+sustainable	JJ	O
+economic	JJ	O
+growth	NN	O
+and	CC	O
+price	NN	O
+stability	NN	O
+.	.	O
 
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
-.	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-Timothy	NNP
-F	NNP
-.	.
-Geithner	''
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-Elizabeth	NNP
-A	NNP
-.	.
-Duke	NNP
-;	:
-Richard	NNP
-W	NNP
-.	.
-Fisher	NNP
-;	:
-Donald	NNP
-L	NNP
-.	.
-Kohn	''
-;	:
-Randall	NNP
-S	NNP
-.	.
-Kroszner	''
-;	:
-Sandra	NNP
-Pianalto	NNP
-;	:
-Charles	NNP
-I	NNP
-.	.
-Plosser	''
-;	:
-Gary	NNP
-H	NNP
-.	.
-Stern	NNP
-;	:
-and	CC
-Kevin	NNP
-M	NNP
-.	.
-Warsh	''
-.	.
+Voting	NNP	T
+for	IN	O
+the	DT	O
+FOMC	NN	O
+monetary	JJ	O
+policy	NN	O
+action	NN	O
+were	VBD	O
+:	:	O
+Ben	NNP	O
+S	NNP	O
+.	.	O
+Bernanke	NNP	O
+,	,	O
+Chairman	NNP	O
+;	:	O
+Timothy	NNP	O
+F	NNP	O
+.	.	O
+Geithner	NNP	O
+,	,	O
+Vice	NNP	O
+Chairman	NNP	O
+;	:	O
+Elizabeth	NNP	O
+A	NNP	O
+.	.	O
+Duke	NNP	O
+;	:	O
+Richard	NNP	O
+W	NNP	O
+.	.	O
+Fisher	NNP	O
+;	:	O
+Donald	NNP	O
+L	NNP	O
+.	.	O
+Kohn	NNP	O
+;	:	O
+Randall	NNP	O
+S	NNP	O
+.	.	O
+Kroszner	NNP	O
+;	:	O
+Sandra	NNP	O
+Pianalto	NNP	O
+;	:	O
+Charles	NNP	O
+I	NNP	O
+.	.	O
+Plosser	NNP	O
+;	:	O
+Gary	NNP	O
+H	NNP	O
+.	.	O
+Stern	NNP	O
+;	:	O
+and	CC	O
+Kevin	NNP	O
+M	NNP	O
+.	.	O
+Warsh	NNP	O
+.	.	O
 
-In	IN
-a	DT
-related	JJ
-action	NN
-,	,
-the	DT
-Board	NNP
-of	IN
-Governors	NNP
-unanimously	RB
+In	IN	O
+a	DT	O
+related	JJ	O
+action	NN	O
+,	,	O
+the	DT	O
+Board	NNP	O
+of	IN	O
+Governors	NNP	O
+unanimously	RB	O
 approved	VBN  A
-a	DT
+a	DT	O
 50-basis-point	NN  N
 decrease	NN  D
-in	IN
-the	DT
+in	IN	O
+the	DT	O
 discount	NN  T
 rate	NN  T
-to	TO
+to	TO	O
 1-1/4	VB  N
 percent	NN  U
-.	.
+.	.	O
 
-In	IN
-taking	VBG
-this	DT
-action	NN
-,	,
-the	DT
-Board	NNP
-approved	VBD
-the	DT
-requests	NNS
-submitted	VBD
-by	IN
-the	DT
-Boards	NNS
-of	IN
-Directors	NNS
-of	IN
-the	DT
-Federal	NNP
-Reserve	NNP
-Banks	NNP
-of	IN
-Boston	NNP
-,	,
-New	NNP
-York	NNP
-,	,
-Cleveland	NNP
-,	,
-and	CC
-San	NNP
-Francisco	NNP
-.	.
+In	IN	O
+taking	VBG	O
+this	DT	O
+action	NN	O
+,	,	O
+the	DT	O
+Board	NNP	O
+approved	VBD	A
+the	DT	O
+requests	NNS	O
+submitted	VBD	O
+by	IN	O
+the	DT	O
+Boards	NNS	O
+of	IN	O
+Directors	NNS	O
+of	IN	O
+the	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+Banks	NNP	O
+of	IN	O
+Boston	NNP	O
+,	,	O
+New	NNP	O
+York	NNP	O
+,	,	O
+Cleveland	NNP	O
+,	,	O
+and	CC	O
+San	NNP	O
+Francisco	NNP	O
+.	.	O
 
-The	DT
-Federal	NNP
-Open	NNP
-Market	NNP
-Committee	NNP
+The	DT	O
+Federal	NNP	O
+Open	NNP	O
+Market	NNP	O
+Committee	NNP	O
 decided	VBD  A
-today	NN
-to	TO
+today	NN	O
+to	TO	O
 raise	VB  D
-its	PRP$
-target	NN
-for	IN
-the	DT
+its	PRP$	O
+target	NN	O
+for	IN	O
+the	DT	O
 federal	JJ  T
 funds	NNS  T
 rate	NN  T
@@ -676,268 +676,268 @@ points	NNS  U
 to	TO  O
 5-1/4	VB  N
 percent	NN  U
-.	.
+.	.	O
 
-Recent	JJ
-indicators	NNS
-suggest	VBP
-that	IN
-economic	JJ
-growth	NN
-is	VBZ
-moderating	VBG
-from	IN
-its	PRP$
-quite	RB
-strong	JJ
-pace	NN
-earlier	RB
-this	DT
-year	NN
-,	,
-partly	RB
-reflecting	VBG
-a	DT
-gradual	JJ
-cooling	NN
-of	IN
-the	DT
-housing	NN
-market	NN
-and	CC
-the	DT
-lagged	VBN
-effects	NNS
-of	IN
-increases	NNS
-in	IN
-interest	NN
-rates	NNS
-and	CC
-energy	NN
-prices	NNS
-.	.
+Recent	JJ	O
+indicators	NNS	O
+suggest	VBP	O
+that	IN	O
+economic	JJ	O
+growth	NN	O
+is	VBZ	O
+moderating	VBG	O
+from	IN	O
+its	PRP$	O
+quite	RB	O
+strong	JJ	O
+pace	NN	O
+earlier	RB	O
+this	DT	O
+year	NN	O
+,	,	O
+partly	RB	O
+reflecting	VBG	O
+a	DT	O
+gradual	JJ	O
+cooling	NN	O
+of	IN	O
+the	DT	O
+housing	NN	O
+market	NN	O
+and	CC	O
+the	DT	O
+lagged	VBN	O
+effects	NNS	O
+of	IN	O
+increases	NNS	D
+in	IN	O
+interest	NN	T
+rates	NNS	T
+and	CC	O
+energy	NN	O
+prices	NNS	O
+.	.	O
 
-Readings	NNS
-on	IN
-core	NN
-inflation	NN
-have	VBP
-been	VBN
-elevated	JJ
-in	IN
-recent	JJ
-months	NNS
-.	.
+Readings	NNS	O
+on	IN	O
+core	NN	O
+inflation	NN	O
+have	VBP	O
+been	VBN	O
+elevated	JJ	O
+in	IN	O
+recent	JJ	O
+months	NNS	O
+.	.	O
 
-Ongoing	JJ
-productivity	NN
-gains	NNS
-have	VBP
-held	VBN
-down	IN
-the	DT
-rise	NN
-in	IN
-unit	NN
-labor	NN
-costs	NNS
-,	,
-and	CC
-inflation	NN
-expectations	NNS
-remain	VBP
-contained	VBN
-.	.
+Ongoing	JJ	O
+productivity	NN	O
+gains	NNS	O
+have	VBP	O
+held	VBN	O
+down	IN	O
+the	DT	O
+rise	NN	D
+in	IN	O
+unit	NN	O
+labor	NN	O
+costs	NNS	O
+,	,	O
+and	CC	O
+inflation	NN	O
+expectations	NNS	O
+remain	VBP	O
+contained	VBN	O
+.	.	O
 
-However	RB
-,	,
-the	DT
-high	JJ
-levels	NNS
-of	IN
-resource	NN
-utilization	NN
-and	CC
-of	IN
-the	DT
-prices	NNS
-of	IN
-energy	NN
-and	CC
-other	JJ
-commodities	NNS
-have	VBP
-the	DT
-potential	JJ
-to	TO
-sustain	VB
-inflation	NN
-pressures	NNS
-.	.
+However	RB	O
+,	,	O
+the	DT	O
+high	JJ	O
+levels	NNS	O
+of	IN	O
+resource	NN	O
+utilization	NN	O
+and	CC	O
+of	IN	O
+the	DT	O
+prices	NNS	O
+of	IN	O
+energy	NN	O
+and	CC	O
+other	JJ	O
+commodities	NNS	O
+have	VBP	O
+the	DT	O
+potential	JJ	O
+to	TO	O
+sustain	VB	O
+inflation	NN	O
+pressures	NNS	O
+.	.	O
 
-Although	IN
-the	DT
-moderation	NN
-in	IN
-the	DT
-growth	NN
-of	IN
-aggregate	JJ
-demand	NN
-should	MD
-help	VB
-to	TO
-limit	VB
-inflation	NN
-pressures	NNS
-over	IN
-time	NN
-,	,
-the	DT
-Committee	NNP
-judges	NNS
-that	IN
-some	DT
-inflation	NN
-risks	NNS
-remain	VBP
-.	.
+Although	IN	O
+the	DT	O
+moderation	NN	O
+in	IN	O
+the	DT	O
+growth	NN	O
+of	IN	O
+aggregate	JJ	O
+demand	NN	O
+should	MD	O
+help	VB	O
+to	TO	O
+limit	VB	O
+inflation	NN	O
+pressures	NNS	O
+over	IN	O
+time	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+judges	NNS	O
+that	IN	O
+some	DT	O
+inflation	NN	O
+risks	NNS	O
+remain	VBP	O
+.	.	O
 
-The	DT
-extent	NN
-and	CC
-timing	NN
-of	IN
-any	DT
-additional	JJ
-firming	VBG
-that	IN
-may	MD
-be	VB
-needed	VBN
-to	TO
-address	VB
-these	DT
-risks	NNS
-will	MD
-depend	VB
-on	IN
-the	DT
-evolution	NN
-of	IN
-the	DT
-outlook	NN
-for	IN
-both	DT
-inflation	NN
-and	CC
-economic	JJ
-growth	NN
-,	,
-as	IN
-implied	JJ
-by	IN
-incoming	JJ
-information	NN
-.	.
+The	DT	O
+extent	NN	O
+and	CC	O
+timing	NN	O
+of	IN	O
+any	DT	O
+additional	JJ	O
+firming	VBG	O
+that	IN	O
+may	MD	O
+be	VB	O
+needed	VBN	O
+to	TO	O
+address	VB	O
+these	DT	O
+risks	NNS	O
+will	MD	O
+depend	VB	O
+on	IN	O
+the	DT	O
+evolution	NN	O
+of	IN	O
+the	DT	O
+outlook	NN	O
+for	IN	O
+both	DT	O
+inflation	NN	O
+and	CC	O
+economic	JJ	O
+growth	NN	O
+,	,	O
+as	IN	O
+implied	JJ	O
+by	IN	O
+incoming	JJ	O
+information	NN	O
+.	.	O
 
-In	IN
-any	DT
-event	NN
-,	,
-the	DT
-Committee	NNP
-will	MD
-respond	VB
-to	TO
-changes	NNS
-in	IN
-economic	JJ
-prospects	NNS
-as	IN
-needed	JJ
-to	TO
-support	VB
-the	DT
-attainment	NN
-of	IN
-its	PRP$
-objectives	NNS
-.	.
+In	IN	O
+any	DT	O
+event	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+will	MD	O
+respond	VB	O
+to	TO	O
+changes	NNS	O
+in	IN	O
+economic	JJ	O
+prospects	NNS	O
+as	IN	O
+needed	JJ	O
+to	TO	O
+support	VB	O
+the	DT	O
+attainment	NN	O
+of	IN	O
+its	PRP$	O
+objectives	NNS	O
+.	.	O
 
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
+Voting	NNP	A
+for	IN	D
+the	DT	O
+FOMC	NN	O
+monetary	JJ	O
+policy	NN	O
+action	NN	O
+were	VBD	O
+:	:	O
+Ben	NNP	O
+S	NNP	O
 .	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-Timothy	NNP
-F	NNP
+Bernanke	NNP	O
+,	,	O
+Chairman	NNP	O
+;	:	O
+Timothy	NNP	O
+F	NNP	O
 .	.
-Geithner	''
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-Susan	NNP
-S	NNP
-.	.
-Bies	''
-;	:
-Jack	NNP
-Guynn	NNP
-;	:
-Donald	NNP
-L	NNP
-.	.
-Kohn	''
-;	:
-Randall	NNP
-S	NNP
-.	.
-Kroszner	''
-;	:
-Jeffrey	NNP
-M	NNP
-.	.
-Lacker	''
-;	:
-Sandra	NNP
-Pianalto	NNP
-;	:
-Kevin	NNP
-M	NNP
-.	.
-Warsh	''
-;	:
-and	CC
-Janet	NNP
-L	NNP
-.	.
-Yellen	''
-.	.
+Geithner	NNP	O
+,	,	O
+Vice	NNP	O
+Chairman	NNP	O
+;	:	O
+Susan	NNP	O
+S	NNP	O
+.	.	O
+Bies	NNP	O
+;	:	O
+Jack	NNP	O
+Guynn	NNP	O
+;	:	O
+Donald	NNP	O
+L	NNP	O
+.	.	O
+Kohn	''	O
+;	:	O
+Randall	NNP	O
+S	NNP	O
+.	.	O
+Kroszner	NNP	O
+;	:	O
+Jeffrey	NNP	O
+M	NNP	O
+.	.	O
+Lacker	''	O
+;	:	O
+Sandra	NNP	O
+Pianalto	NNP	O
+;	:	O
+Kevin	NNP	O
+M	NNP	O
+.	.	O
+Warsh	NNP	O
+;	:	O
+and	CC	O
+Janet	NNP	O
+L	NNP	O
+.	.	O
+Yellen	NNP	O
+.	.	O
 
-In	IN
-a	DT
-related	JJ
-action	NN
-,	,
-the	DT
-Board	NNP
-of	IN
-Governors	NNP
-unanimously	RB
+In	IN	O
+a	DT	O
+related	JJ	O
+action	NN	A
+,	,	O
+the	DT	O
+Board	NNP	O
+of	IN	O
+Governors	NNP	O
+unanimously	RB	O
 approved	VBN  A
 a	DT  O
 25-basis-point	NN  N
@@ -949,240 +949,240 @@ rate	NN
 to	TO  T
 6-1/4	VB  N
 percent	NN  U
-.	.
+.	.	O
 
-In	IN
-taking	VBG
-this	DT
-action	NN
-,	,
-the	DT
-Board	NNP
-approved	VBD
-the	DT
-requests	NNS
-submitted	VBD
-by	IN
-the	DT
-Boards	NNS
-of	IN
-Directors	NNS
-of	IN
-the	DT
-Federal	NNP
-Reserve	NNP
-Banks	NNP
-of	IN
-Boston	NNP
-,	,
-New	NNP
-York	NNP
-,	,
-Philadelphia	NNP
-,	,
-Cleveland	NNP
-,	,
-Richmond	NNP
-,	,
-Atlanta	NNP
-,	,
-Chicago	NNP
-,	,
-St	NNP
-.	.
-Louis	NNP
-,	,
-Minneapolis	NNP
-,	,
-and	CC
-Dallas	NNP
-.	.
+In	IN	O
+taking	VBG	O
+this	DT	O
+action	NN	A
+,	,	O
+the	DT	O
+Board	NNP	O
+approved	VBD	A
+the	DT	O
+requests	NNS	O
+submitted	VBD	O
+by	IN	O
+the	DT	O
+Boards	NNS	O
+of	IN	O
+Directors	NNS	O
+of	IN	O
+the	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+Banks	NNP	O
+of	IN	O
+Boston	NNP	O
+,	,	O
+New	NNP	O
+York	NNP	O
+,	,	O
+Philadelphia	NNP	O
+,	,	O
+Cleveland	NNP	O
+,	,	O
+Richmond	NNP	O
+,	,	O
+Atlanta	NNP	O
+,	,	O
+Chicago	NNP	O
+,	,	O
+St	NNP	O
+.	.	O
+Louis	NNP	O
+,	,	O
+Minneapolis	NNP	O
+,	,	O
+and	CC	O
+Dallas	NNP	O
+.	.	O
 
-Information	NNP
-received	VBD
-since	IN
-the	DT
-Federal	NNP
-Open	NNP
-Market	NNP
-Committee	NNP
-met	VBD
-in	IN
-December	NNP
-suggests	VBZ
-that	IN
-economic	JJ
-activity	NN
-has	VBZ
-continued	VBN
-to	TO
-strengthen	VB
-and	CC
-that	IN
-the	DT
-deterioration	NN
-in	IN
-the	DT
-labor	NN
-market	NN
-is	VBZ
-abating	VBG
-.	.
+Information	NNP	O
+received	VBD	O
+since	IN	O
+the	DT	O
+Federal	NNP	O
+Open	NNP	O
+Market	NNP	O
+Committee	NNP	O
+met	VBD	O
+in	IN	O
+December	NNP	O
+suggests	VBZ	O
+that	IN	O
+economic	JJ	O
+activity	NN	O
+has	VBZ	O
+continued	VBN	O
+to	TO	O
+strengthen	VB	O
+and	CC	O
+that	IN	O
+the	DT	O
+deterioration	NN	O
+in	IN	O
+the	DT	O
+labor	NN	O
+market	NN	O
+is	VBZ	O
+abating	VBG	O
+.	.	O
 
-Household	NNP
-spending	NN
-is	VBZ
-expanding	VBG
-at	IN
-a	DT
-moderate	JJ
-rate	NN
-but	CC
-remains	VBZ
-constrained	VBN
-by	IN
-a	DT
-weak	JJ
-labor	NN
-market	NN
-,	,
-modest	JJ
-income	NN
-growth	NN
-,	,
-lower	JJR  D
-housing	NN
-wealth	NN
-,	,
-and	CC
-tight	JJ
-credit	NN
-.	.
+Household	NNP	O
+spending	NN	O
+is	VBZ	O
+expanding	VBG	O
+at	IN	O
+a	DT	O
+moderate	JJ	O
+rate	NN	O
+but	CC	O
+remains	VBZ	O
+constrained	VBN	O
+by	IN	O
+a	DT	O
+weak	JJ	O
+labor	NN	O
+market	NN	O
+,	,	O
+modest	JJ	O
+income	NN	O
+growth	NN	O
+,	,	O
+lower	JJR  D	O
+housing	NN	O
+wealth	NN	O
+,	,	O
+and	CC	O
+tight	JJ	O
+credit	NN	O
+.	.	O
 
-Business	NNP
-spending	NN
-on	IN
-equipment	NN
-and	CC
-software	NN
-appears	VBZ
-to	TO
-be	VB
-picking	VBG
-up	IN
-,	,
-but	CC
-investment	NN
-in	IN
-structures	NNS
-is	VBZ
-still	RB
-contracting	VBG
-and	CC
-employers	NNS
-remain	VBP
-reluctant	JJ
-to	TO
-add	VB
-to	TO
-payrolls	NNS
-.	.
+Business	NNP	O
+spending	NN	O
+on	IN	O
+equipment	NN	O
+and	CC	O
+software	NN	O
+appears	VBZ	O
+to	TO	O
+be	VB	O
+picking	VBG	O
+up	IN	O
+,	,	O
+but	CC	O
+investment	NN	O
+in	IN	O
+structures	NNS	O
+is	VBZ	O
+still	RB	O
+contracting	VBG	O
+and	CC	O
+employers	NNS	O
+remain	VBP	O
+reluctant	JJ	O
+to	TO	O
+add	VB	O
+to	TO	O
+payrolls	NNS	O
+.	.	O
 
-Firms	NNS
-have	VBP
-brought	VBN
-inventory	NN
-stocks	NNS
-into	IN
-better	JJR
-alignment	IN
-with	IN
-sales	NNS
-.	.
+Firms	NNS	O
+have	VBP	O
+brought	VBN	O
+inventory	NN	O
+stocks	NNS	O
+into	IN	O
+better	JJR	O
+alignment	IN	O
+with	IN	O
+sales	NNS	O
+.	.	O
 
-While	IN
-bank	NN
-lending	NN
-continues	VBZ
-to	TO
-contract	NN
-,	,
-financial	JJ
-market	NN
-conditions	NNS
-remain	VBP
-supportive	JJ
-of	IN
-economic	JJ
-growth	NN
-.	.
+While	IN	O
+bank	NN	O
+lending	NN	O
+continues	VBZ	O
+to	TO	O
+contract	NN	O
+,	,	O
+financial	JJ	O
+market	NN	O
+conditions	NNS	O
+remain	VBP	O
+supportive	JJ	O
+of	IN	O
+economic	JJ	O
+growth	NN	O
+.	.	O
 
-Although	IN
-the	DT
-pace	NN
-of	IN
-economic	JJ
-recovery	NN
-is	VBZ
-likely	JJ
-to	TO
-be	VB
-moderate	JJ
-for	IN
-a	DT
-time	NN
-,	,
-the	DT
-Committee	NNP
-anticipates	VBZ
-a	DT
-gradual	JJ
-return	NN
-to	TO
-higher	JJR
-levels	NNS
-of	IN
-resource	NN
-utilization	NN
-in	IN
-a	DT
-context	NN
-of	IN
-price	NN
-stability	NN
-.	.
+Although	IN	O
+the	DT	O
+pace	NN	O
+of	IN	O
+economic	JJ	O
+recovery	NN	O
+is	VBZ	O
+likely	JJ	O
+to	TO	O
+be	VB	O
+moderate	JJ	O
+for	IN	O
+a	DT	O
+time	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+anticipates	VBZ	O
+a	DT	O
+gradual	JJ	O
+return	NN	O
+to	TO	O
+higher	JJR	D
+levels	NNS	O
+of	IN	O
+resource	NN	O
+utilization	NN	O
+in	IN	O
+a	DT	O
+context	NN	O
+of	IN	O
+price	NN	O
+stability	NN	O
+.	.	O
 
-With	IN
-substantial	JJ
-resource	NN
-slack	NN
-continuing	VBG
-to	TO
-restrain	VB
-cost	NN
-pressures	NNS
-and	CC
-with	IN
-longer-term	JJ
-inflation	NN
-expectations	NNS
-stable	JJ
-,	,
-inflation	NN
-is	VBZ
-likely	JJ
-to	TO
-be	VB
-subdued	VBN
-for	IN
-some	DT
-time	NN
-.	.
+With	IN	O
+substantial	JJ	O
+resource	NN	O
+slack	NN	O
+continuing	VBG	O
+to	TO	O
+restrain	VB	O
+cost	NN	O
+pressures	NNS	O
+and	CC	O
+with	IN	O
+longer-term	JJ	O
+inflation	NN	O
+expectations	NNS	O
+stable	JJ	O
+,	,	O
+inflation	NN	O
+is	VBZ	O
+likely	JJ	O
+to	TO	O
+be	VB	O
+subdued	VBN	O
+for	IN	O
+some	DT	O
+time	NN	O
+.	.	O
 
-The	DT
-Committee	NNP
-will	MD
-maintain	VB  A
+The	DT	O
+Committee	NNP	O
+will	MD	O
+maintain	VB  D
 the	DT  O
 target	NN  O
 range	NN  O
@@ -1219,52 +1219,52 @@ and	CC  O
 stable	JJ  O
 inflation	NN  O
 expectations	NNS  O
-,	,
-are	VBP
-likely	JJ
-to	TO
-warrant	VB
-exceptionally	RB
-low	JJ
-levels	NNS
-of	IN
-the	DT
+,	,	O
+are	VBP	O
+likely	JJ	O
+to	TO	O
+warrant	VB	O
+exceptionally	RB	O
+low	JJ	D
+levels	NNS	D
+of	IN	O
+the	DT	O
 federal	JJ  T
 funds	NNS  T
 rate	NN  T
-for	IN
-an	DT
-extended	JJ
-period	NN
-.	.
+for	IN	O
+an	DT	O
+extended	JJ	O
+period	NN	O
+.	.	O
 
-To	TO
-provide	VB
-support	NN
-to	TO
-mortgage	NN
-lending	NN
-and	CC
-housing	NN
-markets	NNS
-and	CC
-to	TO
-improve	VB
-overall	JJ
-conditions	NNS
-in	IN
-private	JJ
-credit	NN
-markets	NNS
-,	,
-the	DT
-Federal	NNP
-Reserve	NNP
-is	VBZ
-in	IN
-the	DT
-process	NN
-of	IN
+To	TO	O
+provide	VB	O
+support	NN	O
+to	TO	O
+mortgage	NN	O
+lending	NN	O
+and	CC	O
+housing	NN	O
+markets	NNS	O
+and	CC	O
+to	TO	O
+improve	VB	O
+overall	JJ	O
+conditions	NNS	O
+in	IN	O
+private	JJ	O
+credit	NN	O
+markets	NNS	O
+,	,	O
+the	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+is	VBZ	O
+in	IN	O
+the	DT	O
+process	NN	O
+of	IN	O
 purchasing	NN  A
 $	$  O
 1.25	CD  N
@@ -1277,159 +1277,159 @@ and	CC  O
 about	IN  O
 $	$  O
 175	CD  N
-billion	CD  N
+billion	CD  U
 of	IN  O
 agency	NN  T  
 debt	NN  T
-.	.
+.	.	O
 
-In	IN
-order	NN
-to	TO
-promote	VB
-a	DT
-smooth	JJ
-transition	NN
-in	IN
-markets	NNS
-,	,
-the	DT
-Committee	NNP
-is	VBZ
-gradually	RB
-slowing	VBG
-the	DT
-pace	NN
-of	IN
-these	DT
-purchases	NNS
-,	,
-and	CC
-it	PRP
-anticipates	VBZ
-that	IN
-these	DT
-transactions	NNS
-will	MD
-be	VB
-executed	VBN
-by	IN
-the	DT
-end	NN
-of	IN
-the	DT
-first	JJ
-quarter	NN
-.	.
+In	IN	O
+order	NN	O
+to	TO	O
+promote	VB	O
+a	DT	O
+smooth	JJ	O
+transition	NN	O
+in	IN	O
+markets	NNS	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+is	VBZ	O
+gradually	RB	O
+slowing	VBG	D	
+the	DT	O
+pace	NN	O
+of	IN	O
+these	DT	O
+purchases	NNS	A
+,	,	O
+and	CC	O
+it	PRP	O
+anticipates	VBZ	O
+that	IN	O
+these	DT	O
+transactions	NNS	O
+will	MD	O
+be	VB	O
+executed	VBN	O
+by	IN	O
+the	DT	O
+end	NN	O
+of	IN	O
+the	DT	O
+first	JJ	N
+quarter	NN	U
+.	.	O
 
-The	DT
-Committee	NNP
-will	MD
-continue	VB
-to	TO
-evaluate	VB
-its	PRP$
-purchases	NNS
-of	IN
-securities	NNS
-in	IN
-light	NN
-of	IN
-the	DT
-evolving	VBG
-economic	JJ
-outlook	NN
-and	CC
-conditions	NNS
-in	IN
-financial	JJ
-markets	NNS
-.	.
+The	DT	O
+Committee	NNP	O
+will	MD	O
+continue	VB	O
+to	TO	O
+evaluate	VB	O
+its	PRP$	O
+purchases	NNS	A
+of	IN	O
+securities	NNS	T
+in	IN	O
+light	NN	O
+of	IN	O
+the	DT	O
+evolving	VBG	O
+economic	JJ	O
+outlook	NN	O
+and	CC	O
+conditions	NNS	O
+in	IN	O
+financial	JJ	O
+markets	NNS	O
+.	.	O
 
-In	IN
-light	NN
-of	IN
-improved	JJ
-functioning	NN
-of	IN
-financial	JJ
-markets	NNS
-,	,
-the	DT
-Federal	NNP
-Reserve	NNP
-will	MD
-be	VB
-closing	NN
-the	DT
-Asset-Backed	NNP
-Commercial	NNP
-Paper	NNP
-Money	NNP
-Market	NNP
-Mutual	NNP
-Fund	NNP
-Liquidity	NN
-Facility	NN
-,	,
-the	DT
-Commercial	JJ
-Paper	NNP
-Funding	NNP
-Facility	NN
-,	,
-the	DT
-Primary	JJ
-Dealer	NN
-Credit	NNP
-Facility	NN
-,	,
-and	CC
-the	DT
-Term	NN
-Securities	NNP
-Lending	NN
-Facility	NN
-on	IN
-February	NNP
-1	CD
-,	,
-as	IN
-previously	RB
-announced	VBD
-.	.
+In	IN	O
+light	NN	O
+of	IN	O
+improved	JJ	O
+functioning	NN	O
+of	IN	O
+financial	JJ	O
+markets	NNS	O
+,	,	O
+the	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+will	MD	O
+be	VB	O
+closing	NN	A
+the	DT	O
+Asset-Backed	NNP	T
+Commercial	NNP	T
+Paper	NNP	T
+Money	NNP	T
+Market	NNP	T
+Mutual	NNP	T
+Fund	NNP	T
+Liquidity	NN	T
+Facility	NN	T
+,	,	O
+the	DT	O
+Commercial	JJ	T
+Paper	NNP	T
+Funding	NNP	T
+Facility	NN	T
+,	,	O
+the	DT	O
+Primary	JJ	T
+Dealer	NN	T
+Credit	NNP	T
+Facility	NN	T
+,	,	O
+and	CC	O
+the	DT	O
+Term	NN	T
+Securities	NNP	T
+Lending	NN	T
+Facility	NN	T
+on	IN	O
+February	NNP	O
+1	CD	N
+,	,	O
+as	IN	O
+previously	RB	O
+announced	VBD	O
+.	.	O
 
-In	IN
-addition	NN
-,	,
-the	DT
-temporary	JJ
-liquidity	NN
-swap	NN
-arrangements	NNS
-between	IN
-the	DT
-Federal	NNP
-Reserve	NNP
-and	CC
-other	JJ
-central	JJ
-banks	NNS
-will	MD
-expire	VB
-on	IN
-February	NNP
-1	CD
-.	.
+In	IN	O
+addition	NN	O
+,	,	O
+the	DT	O
+temporary	JJ	T
+liquidity	NN	T
+swap	NN	T
+arrangements	NNS	T
+between	IN	O
+the	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+and	CC	O
+other	JJ	O
+central	JJ	O
+banks	NNS	O
+will	MD	O
+expire	VB	O
+on	IN	O
+February	NNP	O
+1	CD	N
+.	.	O
 
-The	DT
-Federal	NNP
-Reserve	NNP
-is	VBZ
-in	IN
-the	DT
-process	NN
-of	IN
+The	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+is	VBZ	O
+in	IN	O
+the	DT	O
+process	NN	O
+of	IN	O
 winding	VBG  A
 down	IN  A
 its	PRP$  O
@@ -1441,852 +1441,852 @@ $	$  O
 50	CD  N
 billion	CD  U
 in	IN  O
-28	CD  T
--	:  T
+28	CD  N
+-	:  O
 day	NN  T
 credit	NN  T
 will	MD  O
 be	VB  O
-offered	VBN  A
+offered	VBN  O
 on	IN  O
 February	NNP  O
-8	CD  O
+8	CD  N
 and	CC  O
 $	$  O
 25	CD  N
 billion	CD  U
 in	IN  O
-28	CD  T
--	:  T
+28	CD  N
+-	:  O
 day	NN  T
 credit	NN  T
 will	MD  O
 be	VB  O
-offered	VBN  A
-at	InformationO
+offered	VBN  O
+at	IN	O
 the	DT  O
 final	JJ  O
 auction	NN  T
 on	IN  O
 March	NNP  O
-8	CD  O
+8	CD  N
 .	.  O
 
-The	DT
-anticipated	JJ
-expiration	NN
-dates	NNS
-for	IN
-the	DT
-Term	NN
-Asset-Backed	NNP
-Securities	NNP
-Loan	NNP
-Facility	NN
-remain	VBP
-set	VBN
-at	IN
-June	NNP
-30	CD
-for	IN
-loans	NNS
-backed	VBD
-by	IN
-new-issue	JJ
-commercial	JJ
-mortgage-backed	JJ
-securities	NNS
-and	CC
-March	NNP
-31	CD
-for	IN
-loans	NNS
-backed	VBD
-by	IN
-all	DT
-other	JJ
-types	NNS
-of	IN
-collateral	NN
-.	.
+The	DT	O
+anticipated	JJ	O
+expiration	NN	O
+dates	NNS	O
+for	IN	O
+the	DT	O
+Term	NN	T
+Asset-Backed	NNP	T
+Securities	NNP	T
+Loan	NNP	T
+Facility	NN	T
+remain	VBP	O
+set	VBN	O
+at	IN	O
+June	NNP	O
+30	CD	N
+for	IN	O
+loans	NNS	O
+backed	VBD	O
+by	IN	O
+new-issue	JJ	T
+commercial	JJ	T
+mortgage-backed	JJ	T
+securities	NNS	T
+and	CC	O
+March	NNP	O
+31	CD	N
+for	IN	O
+loans	NNS	T
+backed	VBD	O
+by	IN	O
+all	DT	O
+other	JJ	O
+types	NNS	O
+of	IN	O
+collateral	NN	O
+.	.	O
 
-The	DT
-Federal	NNP
-Reserve	NNP
-is	VBZ
-prepared	VBN
-to	TO
-modify	VB
-these	DT
-plans	NNS
-if	IN
-necessary	JJ
-to	TO
-support	VB
-financial	JJ
-stability	NN
-and	CC
-economic	JJ
-growth	NN
-.	.
+The	DT	O
+Federal	NNP	O
+Reserve	NNP	O
+is	VBZ	O
+prepared	VBN	O
+to	TO	O
+modify	VB	O
+these	DT	O
+plans	NNS	O
+if	IN	O
+necessary	JJ	O
+to	TO	O
+support	VB	O
+financial	JJ	O
+stability	NN	O
+and	CC	O
+economic	JJ	O
+growth	NN	O
+.	.	O
 
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
-.	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-William	NNP
-C	NNP
-.	.
-Dudley	NNP
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-James	NNP
-Bullard	NNP
-;	:
-Elizabeth	NNP
-A	NNP
-.	.
+Voting	NNP	A
+for	IN	O	D
+the	DT	O
+FOMC	NN	O
+monetary	JJ	O
+policy	NN	O
+action	NN	O
+were	VBD	O
+:	:	O
+Ben	NNP	O
+S	NNP	O
+.	.	O
+Bernanke	NNP	O
+,	,	O
+Chairman	NNP	O
+;	:	O
+William	NNP	O
+C	NNP	O
+.	.	O
+Dudley	NNP	O
+,	,	O
+Vice	NNP	O
+Chairman	NNP	O
+;	:	O
+James	NNP	O
+Bullard	NNP	O
+;	:	O
+Elizabeth	NNP	O
+A	NNP	O
+.	.	O
 Duke	NNP
-;	:
-Donald	NNP
-L	NNP
-.	.
-Kohn	''
-;	:
-Sandra	NNP
-Pianalto	NNP
-;	:
-Eric	NNP
-S	NNP
-.	.
-Rosengren	''
-;	:
-Daniel	NNP
-K	NNP
-.	.
-Tarullo	''
-;	:
-and	CC
-Kevin	NNP
-M	NNP
-.	.
-Warsh	''
-.	.
+;	:	O
+Donald	NNP	O
+L	NNP	O
+.	.	O
+Kohn	NNP	O
+;	:	O
+Sandra	NNP	O
+Pianalto	NNP	O
+;	:	O
+Eric	NNP	O
+S	NNP	O
+.	.	O
+Rosengren	NNP	O
+;	:	O
+Daniel	NNP	O
+K	NNP	O
+.	.	O
+Tarullo	NNP	O
+;	:	O
+and	CC	O
+Kevin	NNP	O
+M	NNP	O
+.	.	O
+Warsh	NNP	O
+.	.	O
 
-Voting	NNP
-against	IN
-the	DT
-policy	NN
-action	NN
-was	VBD
-Thomas	NNP
-M	NNP
+Voting	NNP	A
+against	IN	D
+the	DT	O
+policy	NN	O
+action	NN	O
+was	VBD	O
+Thomas	NNP	O
+M	NNP	O
 .	.
-Hoenig	''
-,	,
-who	WP
-believed	VBD
-that	IN
-economic	JJ
-and	CC
-financial	JJ
-conditions	NNS
-had	VBD
-changed	VBN
-sufficiently	RB
-that	IN
-the	DT
-expectation	NN
-of	IN
-exceptionally	RB
-low	JJ
-levels	NNS
-of	IN
-the	DT
+Hoenig	NNP	O
+,	,	O
+who	WP	O
+believed	VBD	O
+that	IN	O
+economic	JJ	O
+and	CC	O
+financial	JJ	O
+conditions	NNS	O
+had	VBD	O
+changed	VBN	O
+sufficiently	RB	O
+that	IN	O
+the	DT	O
+expectation	NN	O
+of	IN	O
+exceptionally	RB	O
+low	JJ	D	O
+levels	NNS	O
+of	IN	O
+the	DT	O
 federal	JJ  T
 funds	NNS  T
 rate	NN  T
-for	IN
-an	DT
-extended	JJ
-period	NN
-was	VBD
-no	DT
-longer	RB
-warranted	IN
-.	.
+for	IN	O
+an	DT	O
+extended	JJ	O
+period	NN	O
+was	VBD	O
+no	DT	O
+longer	RB	O
+warranted	IN	O
+.	.	O
 
-The	DT
-Federal	NNP
-Open	NNP
-Market	NNP
-Committee	NNP
-decided	VBD  A
-today	NN
-to	TO
+The	DT	O
+Federal	NNP	O
+Open	NNP	O
+Market	NNP	O
+Committee	NNP	O
+decided	VBD  A	
+today	NN	O
+to	TO	O
 keep	VB  D
-its	PRP$
-target	NN
-for	IN
-the	DT
+its	PRP$	O
+target	NN	O
+for	IN	O
+the	DT	O
 federal	JJ  T
 funds	NNS  T
 rate	NN  T
 at	IN  O
 5-1/4	DT  N
 percent	NN  U
-.	.
+.	.	O
 
-Economic	NNP
-growth	NN
-slowed	VBD
-in	IN
-the	DT
-first	JJ
-part	NN
-of	IN
-this	DT
-year	NN
-and	CC
-the	DT
-adjustment	NN
-in	IN
-the	DT
-housing	NN
-sector	NN
-is	VBZ
-ongoing	JJ
-.	.
+Economic	NNP	O
+growth	NN	O
+slowed	VBD	O
+in	IN	O
+the	DT	O
+first	JJ	O
+part	NN	O
+of	IN	O
+this	DT	O
+year	NN	O
+and	CC	O
+the	DT	O
+adjustment	NN	O
+in	IN	O
+the	DT	O
+housing	NN	O
+sector	NN	O
+is	VBZ	O
+ongoing	JJ	O
+.	.	O
 
-Nevertheless	RB
-,	,
-the	DT
-economy	NN
-seems	VBZ
-likely	JJ
-to	TO
-expand	VB
-at	IN
-a	DT
-moderate	JJ
-pace	NN
-over	IN
-coming	VBG
-quarters	NNS
-.	.
+Nevertheless	RB	O
+,	,	O
+the	DT	O
+economy	NN	O
+seems	VBZ	O
+likely	JJ	O
+to	TO	O
+expand	VB	O
+at	IN	O
+a	DT	O
+moderate	JJ	O
+pace	NN	O
+over	IN	O
+coming	VBG	O
+quarters	NNS	O
+.	.	O
 
-Core	NNP
-inflation	NN
-remains	VBZ
-somewhat	RB
-elevated	VBD
-.	.
+Core	NNP	O
+inflation	NN	O
+remains	VBZ	O
+somewhat	RB	O
+elevated	VBD	O
+.	.	O
 
-Although	IN
-inflation	NN
-pressures	NNS
-seem	VBP
-likely	JJ
-to	TO
-moderate	JJ
-over	IN
-time	NN
-,	,
-the	DT
-high	JJ
-level	NN
-of	IN
-resource	NN
-utilization	NN
-has	VBZ
-the	DT
-potential	JJ
-to	TO
-sustain	VB
-those	DT
-pressures	NNS
-.	.
+Although	IN	O
+inflation	NN	O
+pressures	NNS	O
+seem	VBP	O
+likely	JJ	O
+to	TO	O
+moderate	JJ	O
+over	IN	O
+time	NN	O
+,	,	O
+the	DT	O
+high	JJ	O
+level	NN	O
+of	IN	O
+resource	NN	O
+utilization	NN	O
+has	VBZ	O
+the	DT	O
+potential	JJ	O
+to	TO	O
+sustain	VB	O
+those	DT	O
+pressures	NNS	O
+.	.	O
 
-In	IN
-these	DT
-circumstances	NNS
-,	,
-the	DT
-Committee	NNP
-'s	POS
-predominant	NN
-policy	NN
-concern	NN
-remains	VBZ
-the	DT
-risk	NN
-that	IN
-inflation	NN
-will	MD
-fail	VB
-to	TO
-moderate	JJ
-as	IN
-expected	JJ
-.	.
+In	IN	O
+these	DT	O
+circumstances	NNS	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+'s	POS	O
+predominant	NN	O
+policy	NN	O
+concern	NN	O
+remains	VBZ	O
+the	DT	O
+risk	NN	O
+that	IN	O
+inflation	NN	O
+will	MD	O
+fail	VB	O
+to	TO	O
+moderate	JJ	O
+as	IN	O
+expected	JJ	O
+.	.	O
 
-Future	NNP
-policy	NN
-adjustments	NNS
-will	MD
-depend	VB
-on	IN
-the	DT
-evolution	NN
-of	IN
-the	DT
-outlook	NN
-for	IN
-both	DT
-inflation	NN
-and	CC
-economic	JJ
-growth	NN
-,	,
-as	IN
-implied	JJ
-by	IN
-incoming	JJ
-information	NN
-.	.
+Future	NNP	O
+policy	NN	O
+adjustments	NNS	O
+will	MD	O
+depend	VB	O
+on	IN	O
+the	DT	O
+evolution	NN	O
+of	IN	O
+the	DT	O
+outlook	NN	O
+for	IN	O
+both	DT	O
+inflation	NN	O
+and	CC	O
+economic	JJ	O
+growth	NN	O
+,	,	O
+as	IN	O
+implied	JJ	O
+by	IN	O
+incoming	JJ	O
+information	NN	O
+.	.	O
 
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
-.	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-Timothy	NNP
-F	NNP
-.	.
-Geithner	''
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-Thomas	NNP
-M	NNP
-.	.
-Hoenig	''
-;	:
-Donald	NNP
-L	NNP
-.	.
-Kohn	''
-;	:
-Randall	NNP
-S	NNP
-.	.
-Kroszner	''
-;	:
-Cathy	CD
-E	NN
-.	.
-Minehan	''
-;	:
-Frederic	NNP
-S	NNP
-.	.
-Mishkin	''
-;	:
-Michael	NNP
-H	NNP
-.	.
-Moskow	''
-;	:
-William	NNP
-Poole	NNP
-;	:
-and	CC
-Kevin	NNP
-M	NNP
-.	.
-Warsh	''
-.	.
+Voting	NNP	A
+for	IN	D
+the	DT	O
+FOMC	NN	O
+monetary	JJ	O
+policy	NN	O
+action	NN	O
+were	VBD	O
+:	:	O
+Ben	NNP	O
+S	NNP	O
+.	.	O
+Bernanke	NNP
+,	,	O
+Chairman	NNP	O
+;	:	O
+Timothy	NNP	O
+F	NNP	O
+.	.	O
+Geithner	NNP	O
+,	,	O
+Vice	NNP	O
+Chairman	NNP	O
+;	:	O
+Thomas	NNP	O
+M	NNP	O
+.	.	O
+Hoenig	NNP	O
+;	:	O
+Donald	NNP	O
+L	NNP	O
+.	.	O
+Kohn	NNP	O
+;	:	O
+Randall	NNP	O
+S	NNP	O
+.	.	O
+Kroszner	NNP	O
+;	:	O
+Cathy	CD	O
+E	NN	O
+.	.	O
+Minehan	NNP	O
+;	:	O
+Frederic	NNP	O
+S	NNP	O
+.	.	O
+Mishkin	NNP	O
+;	:	O
+Michael	NNP	O
+H	NNP	O
+.	.	O
+Moskow	NNP
+;	:	O
+William	NNP	O
+Poole	NNP	O
+;	:	O
+and	CC	O
+Kevin	NNP	O
+M	NNP	O
+.	.	O
+Warsh	NNP	O
+.	.	O
 
-Information	NNP
-received	VBD
-since	IN
-the	DT
-Federal	NNP
-Open	NNP
-Market	NNP
-Committee	NNP
-met	VBD
-in	IN
-August	NNP
-indicates	VBZ
-that	IN
-economic	JJ
-growth	NN
-remains	VBZ
-slow	JJ
-.	.
+Information	NNP	O
+received	VBD	O
+since	IN	O
+the	DT	O
+Federal	NNP	O
+Open	NNP	O
+Market	NNP	O
+Committee	NNP	O
+met	VBD	O
+in	IN	O
+August	NNP	O
+indicates	VBZ	O
+that	IN	O
+economic	JJ	O
+growth	NN	O
+remains	VBZ	O
+slow	JJ	O
+.	.	O
 
-Recent	JJ
-indicators	NNS
-point	NN
-to	TO
-continuing	VBG
-weakness	NN
-in	IN
-overall	JJ
-labor	NN
-market	NN
-conditions	NNS
-,	,
-and	CC
-the	DT
-unemployment	NN
-rate	NN
-remains	VBZ
-elevated	JJ
-.	.
+Recent	JJ	O
+indicators	NNS	O
+point	NN	O
+to	TO	O
+continuing	VBG	O
+weakness	NN	O
+in	IN	O
+overall	JJ	O
+labor	NN	O
+market	NN	O
+conditions	NNS	O
+,	,	O
+and	CC	O
+the	DT	O
+unemployment	NN	O
+rate	NN	O
+remains	VBZ	O
+elevated	JJ	O
+.	.	O
 
-Household	NNP
-spending	NN
-has	VBZ
-been	VBN
-increasing	VBG
-at	IN
-only	JJ
-a	DT
-modest	JJ
-pace	NN
-in	IN
-recent	JJ
-months	NNS
-despite	IN
-some	DT
-recovery	NN
-in	IN
-sales	NNS
-of	IN
-motor	NN
-vehicles	NNS
-as	IN
-supply-chain	DT
-disruptions	NNS
-eased	VBD
-.	.
+Household	NNP	O
+spending	NN	O
+has	VBZ	O
+been	VBN	O
+increasing	VBG	D
+at	IN	O
+only	JJ	O
+a	DT	O
+modest	JJ	O
+pace	NN	O
+in	IN	O
+recent	JJ	O
+months	NNS	O
+despite	IN	O
+some	DT	O
+recovery	NN	O
+in	IN	O
+sales	NNS	O
+of	IN	O
+motor	NN	O
+vehicles	NNS	O
+as	IN	O
+supply-chain	DT	O
+disruptions	NNS	O
+eased	VBD	O
+.	.	O
 
-Investment	NNP
-in	IN
-nonresidential	DT
-structures	NNS
-is	VBZ
-still	RB
-weak	JJ
-,	,
-and	CC
-the	DT
-housing	NN
-sector	NN
-remains	VBZ
-depressed	VBN
-.	.
+Investment	NNP	O
+in	IN	O
+nonresidential	DT	O
+structures	NNS	O
+is	VBZ	O
+still	RB	O
+weak	JJ	O
+,	,	O
+and	CC	O
+the	DT	O
+housing	NN	O
+sector	NN	O
+remains	VBZ	O
+depressed	VBN	O
+.	.	O
 
-However	RB
-,	,
-business	NN
-investment	NN
-in	IN
-equipment	NN
-and	CC
-software	NN
-continues	VBZ
-to	TO
-expand	VB
-.	.
+However	RB	O
+,	,	O
+business	NN	O
+investment	NN	O
+in	IN	O
+equipment	NN	O
+and	CC	O
+software	NN	O
+continues	VBZ	O
+to	TO	O
+expand	VB	O
+.	.	O
 
-Inflation	NN
-appears	VBZ
-to	TO
-have	VB
-moderated	DT
-since	IN
-earlier	RB
-in	IN
-the	DT
-year	NN
-as	IN
-prices	NNS
-of	IN
-energy	NN
-and	CC
-some	DT
-commodities	NNS
-have	VBP
-declined	VBN
-from	IN
-their	PRP$
-peaks	NNS
-.	.
+Inflation	NN	O
+appears	VBZ	O
+to	TO	O
+have	VB	O
+moderated	DT	O
+since	IN	O
+earlier	RB	O
+in	IN	O
+the	DT	O
+year	NN	O
+as	IN	O
+prices	NNS	O
+of	IN	O
+energy	NN	O
+and	CC	O
+some	DT	O
+commodities	NNS	O
+have	VBP	O
+declined	VBN	D
+from	IN	O
+their	PRP$	O
+peaks	NNS	O
+.	.	O
 
-Longer-term	JJ
-inflation	NN
-expectations	NNS
-have	VBP
-remained	VBN
-stable	JJ
-.	.
+Longer-term	JJ	O
+inflation	NN	O
+expectations	NNS	O
+have	VBP	O
+remained	VBN	O
+stable	JJ	O
+.	.	O
 
-Consistent	JJ
-with	IN
-its	PRP$
-statutory	JJ
-mandate	NN
-,	,
-the	DT
-Committee	NNP
-seeks	VBZ
-to	TO
-foster	VB
-maximum	NN
-employment	NN
-and	CC
-price	NN
-stability	NN
-.	.
+Consistent	JJ	O
+with	IN	O
+its	PRP$	O
+statutory	JJ	O
+mandate	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+seeks	VBZ	O
+to	TO	O
+foster	VB	O
+maximum	NN	O
+employment	NN	O
+and	CC	O
+price	NN	O
+stability	NN	O
+.	.	O
 
-The	DT
-Committee	NNP
-continues	VBZ
-to	TO
-expect	VB
-some	DT
-pickup	NN
-in	IN
-the	DT
-pace	NN
-of	IN
-recovery	NN
-over	IN
-coming	VBG
-quarters	NNS
-but	CC
-anticipates	VBZ
-that	IN
-the	DT
-unemployment	NN
-rate	NN
-will	MD
-decline	VB
-only	RB
-gradually	RB
-toward	IN
-levels	NNS
-that	IN
-the	DT
-Committee	NNP
-judges	NNS
-to	TO
-be	VB
-consistent	JJ
-with	IN
-its	PRP$
-dual	JJ
-mandate	NN
-.	.
+The	DT	O
+Committee	NNP	O
+continues	VBZ	O
+to	TO	O
+expect	VB	O
+some	DT	O
+pickup	NN	O
+in	IN	O
+the	DT	O
+pace	NN	O
+of	IN	O
+recovery	NN	O
+over	IN	O
+coming	VBG	O
+quarters	NNS	O
+but	CC	O
+anticipates	VBZ	O
+that	IN	O
+the	DT	O
+unemployment	NN	O
+rate	NN	O
+will	MD	O
+decline	VB	D
+only	RB	O
+gradually	RB	O
+toward	IN	O
+levels	NNS	O
+that	IN	O
+the	DT	O
+Committee	NNP	O
+judges	NNS	O
+to	TO	O
+be	VB	O
+consistent	JJ	O
+with	IN	O
+its	PRP$	O
+dual	JJ	O
+mandate	NN	O
+.	.	O
 
-Moreover	RB
-,	,
-there	RB
-are	VBP
-significant	JJ
-downside	NN
-risks	NNS
-to	TO
-the	DT
-economic	JJ
-outlook	NN
-,	,
-including	VBG
-strains	NNS
-in	IN
-global	JJ
-financial	JJ
-markets	NNS
-.	.
+Moreover	RB	O
+,	,	O
+there	RB	O
+are	VBP	O
+significant	JJ	O
+downside	NN	O
+risks	NNS	O
+to	TO	O
+the	DT	O
+economic	JJ	O
+outlook	NN	O
+,	,	O
+including	VBG	O
+strains	NNS	O
+in	IN	O
+global	JJ	O
+financial	JJ	O
+markets	NNS	O
+.	.	O
 
-The	DT
-Committee	NNP
-also	RB
-anticipates	VBZ
-that	IN
-inflation	NN
-will	MD
-settle	VB
-,	,
-over	IN
-coming	VBG
-quarters	NNS
-,	,
-at	IN
-levels	NNS
-at	IN
-or	CC
-below	IN
-those	DT
-consistent	JJ
-with	IN
-the	DT
-Committee	NNP
-'s	POS
-dual	JJ
-mandate	NN
-as	IN
-the	DT
-effects	NNS
-of	IN
-past	JJ
-energy	NN
-and	CC
-other	JJ
-commodity	NN
-price	NN
-increases	NNS
-dissipate	VB
-further	JJ
-.	.
+The	DT	O
+Committee	NNP	O
+also	RB	O
+anticipates	VBZ	O
+that	IN	O
+inflation	NN	O
+will	MD	O
+settle	VB	O
+,	,	O
+over	IN	O
+coming	VBG	O
+quarters	NNS	O
+,	,	O
+at	IN	O
+levels	NNS	O
+at	IN	O
+or	CC	O
+below	IN	O
+those	DT	O
+consistent	JJ	O
+with	IN	O
+the	DT	O
+Committee	NNP	O
+'s	POS	O
+dual	JJ	O
+mandate	NN	O
+as	IN	O
+the	DT	O
+effects	NNS	O
+of	IN	O
+past	JJ	O
+energy	NN	O
+and	CC	O
+other	JJ	O
+commodity	NN	O
+price	NN	O
+increases	NNS	D
+dissipate	VB	O
+further	JJ	O
+.	.	O
 
-However	RB
-,	,
-the	DT
-Committee	NNP
-will	MD
-continue	VB
-to	TO
-pay	VB
-close	JJ
-attention	NN
-to	TO
-the	DT
-evolution	NN
-of	IN
-inflation	NN
-and	CC
-inflation	NN
-expectations	NNS
-.	.
+However	RB	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+will	MD	O
+continue	VB	O
+to	TO	O
+pay	VB	O
+close	JJ	O
+attention	NN	O
+to	TO	O
+the	DT	O
+evolution	NN	O
+of	IN	O
+inflation	NN	O
+and	CC	O
+inflation	NN	O
+expectations	NNS	O
+.	.	O
 
-To	TO
-support	VB
-a	DT
-stronger	JJR
-economic	JJ
-recovery	NN
-and	CC
-to	TO
-help	VB
-ensure	VB
-that	IN
-inflation	NN
-,	,
-over	IN
-time	NN
-,	,
-is	VBZ
-at	IN
-levels	NNS
-consistent	JJ
-with	IN
-the	DT
-dual	JJ
-mandate	NN
-,	,
-the	DT
-Committee	NNP
+To	TO	O
+support	VB	O
+a	DT	O
+stronger	JJR	O
+economic	JJ	O
+recovery	NN	O
+and	CC	O
+to	TO	O
+help	VB	O
+ensure	VB	O
+that	IN	O
+inflation	NN	O
+,	,	O
+over	IN	O
+time	NN	O
+,	,	O
+is	VBZ	O
+at	IN	O
+levels	NNS	O
+consistent	JJ	O
+with	IN	O
+the	DT	O
+dual	JJ	O
+mandate	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
 decided	VBD  A
-today	NN
-to	TO
-extend	VB
-the	DT
-average	NN
-maturity	NN
-of	IN
-its	PRP$
-holdings	NNS
-of	IN
-securities	NNS
-.	.
+today	NN	O
+to	TO	O
+extend	VB	D
+the	DT	O
+average	NN	O
+maturity	NN	O
+of	IN	O
+its	PRP$	O
+holdings	NNS	T
+of	IN	O
+securities	NNS	T
+.	.	O
 
-The	DT
-Committee	NNP
-intends	VBZ
-to	TO
-purchase	VB
-,	,
-by	IN
-the	DT
-end	NN
-of	IN
-June	NNP
-2012	CD
-,	,
-$	$
-400	CD
-billion	CD
-of	IN
-Treasury	NNP
-securities	NNS
-with	IN
-remaining	VBG
-maturities	NNS
-of	IN
-6	CD
-years	NNS
-to	TO
-30	CD
-years	NNS
-and	CC
-to	TO
-sell	VB
-an	DT
-equal	JJ
-amount	NN
-of	IN
-Treasury	NNP
-securities	NNS
-with	IN
-remaining	VBG
-maturities	NNS
-of	IN
-3	CD
-years	NNS
-or	CC
-less	JJR
-.	.
+The	DT	O
+Committee	NNP	O
+intends	VBZ	A
+to	TO	O
+purchase	VB	A
+,	,	O
+by	IN	O
+the	DT	O
+end	NN	O
+of	IN	O
+June	NNP	O
+2012	CD	N
+,	,	O
+$	$	O
+400	CD	N
+billion	CD	U
+of	IN	O
+Treasury	NNP	T
+securities	NNS	T
+with	IN	O
+remaining	VBG	O
+maturities	NNS	O
+of	IN	O
+6	CD	N
+years	NNS	U
+to	TO	O
+30	CD	N
+years	NNS	U
+and	CC	O
+to	TO	O
+sell	VB	A
+an	DT	O
+equal	JJ	D
+amount	NN	O
+of	IN	O
+Treasury	NNP	T
+securities	NNS	T
+with	IN	O
+remaining	VBG	O
+maturities	NNS	O
+of	IN	O
+3	CD	N
+years	NNS	U
+or	CC	O
+less	JJR	O
+.	.	O
 
-This	DT
-program	NN
-should	MD
-put	VB
-downward	JJ
-pressure	NN
-on	IN
-longer-term	JJ
-interest	NN
-rates	NNS
-and	CC
-help	NN
-make	VB
-broader	JJR
-financial	JJ
-conditions	NNS
-more	RBR
-accommodative	JJ
-.	.
+This	DT	O
+program	NN	O
+should	MD	O
+put	VB	O
+downward	JJ	O
+pressure	NN	O
+on	IN	O
+longer-term	JJ	T
+interest	NN	T
+rates	NNS	T
+and	CC	O
+help	NN	O
+make	VB	O
+broader	JJR	O
+financial	JJ	O
+conditions	NNS	O
+more	RBR	O
+accommodative	JJ	O
+.	.	O
 
-The	DT
-Committee	NNP
-will	MD
-regularly	RB
-review	VB
-the	DT
-size	NN
-and	CC
-composition	NN
-of	IN
-its	PRP$
-securities	NNS
-holdings	NNS
-and	CC
-is	VBZ
-prepared	VBN
-to	TO
-adjust	VB
-those	DT
-holdings	NNS
-as	IN
-appropriate	JJ
-.	.
+The	DT	O
+Committee	NNP	O
+will	MD	O
+regularly	RB	O
+review	VB	O
+the	DT	O
+size	NN	O
+and	CC	O
+composition	NN	O
+of	IN	O
+its	PRP$	O
+securities	NNS	O
+holdings	NNS	O
+and	CC	O
+is	VBZ	O
+prepared	VBN	O
+to	TO	O
+adjust	VB	O
+those	DT	O
+holdings	NNS	O
+as	IN	O
+appropriate	JJ	O
+.	.	O
 
-To	TO
-help	VB
-support	NN
-conditions	NNS
-in	IN
-mortgage	NN
-markets	NNS
-,	,
-the	DT
-Committee	NNP
-will	MD
-now	RB
-reinvest	VB
-principal	JJ
-payments	NNS
-from	IN
-its	PRP$
-holdings	NNS
-of	IN
-agency	NN
-debt	NN
-and	CC
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-in	IN
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-.	.
+To	TO	O
+help	VB	O
+support	NN	O
+conditions	NNS	O
+in	IN	O
+mortgage	NN	O
+markets	NNS	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+will	MD	O
+now	RB	O
+reinvest	VB	A
+principal	JJ	T
+payments	NNS	T
+from	IN	O
+its	PRP$	O
+holdings	NNS	T
+of	IN	O
+agency	NN	T
+debt	NN	T
+and	CC	O
+agency	NN	T
+mortgage-backed	JJ	T
+securities	NNS	T
+in	IN	O
+agency	NN	O
+mortgage-backed	JJ	T
+securities	NNS	T
+.	.	O
 
-In	IN
-addition	NN
-,	,
-the	DT
-Committee	NNP
-will	MD
-maintain	VB
-its	PRP$
-existing	JJ
-policy	NN
-of	IN
-rolling	VBG
-over	IN
-maturing	VBG
-Treasury	NNP
-securities	NNS
-at	IN
-auction	NN
-.	.
+In	IN	O
+addition	NN	O
+,	,	O
+the	DT	O
+Committee	NNP	O
+will	MD	O
+maintain	VB	D
+its	PRP$	O
+existing	JJ	O
+policy	NN	O
+of	IN	O
+rolling	VBG	O
+over	IN	O
+maturing	VBG	O
+Treasury	NNP	T
+securities	NNS	T
+at	IN	O
+auction	NN	O
+.	.	O
 
-The	DT
-Committee	NNP
-also	RB
+The	DT	O
+Committee	NNP	O
+also	RB	O
 decided	VBD  A
-to	TO
+to	TO	O
 keep	VB  D
 the	DT  O
 target	NN  O
@@ -2298,915 +2298,174 @@ funds	NNS  T
 rate	NN  T
 at	IN  O
 0	CD  N
-to	TO  N
-1/4	VB  N
-percent	NN  U
-and	CC  O
-currently	RB
-anticipates	VBZ
-that	IN
-economic	JJ
-conditions	NNS
---	:
-including	VBG
-low	JJ
-rates	NNS
-of	IN
-resource	NN
-utilization	NN
-and	CC
-a	DT
-subdued	VBN
-outlook	NN
-for	IN
-inflation	NN
-over	IN
-the	DT
-medium	NN
-run--are	IN
-likely	JJ
-to	TO
-warrant	VB
-exceptionally	RB
-low	JJ
-levels	NNS
-for	IN
-the	DT
-federal	JJ  T
-funds	NNS  T
-rate	NN  T
-at	IN
-least	JJS
-through	IN
-mid-2013	DT
-.	.
-
-The	DT
-Committee	NNP
-discussed	VBD
-the	DT
-range	NN
-of	IN
-policy	NN
-tools	NNS
-available	JJ
-to	TO
-promote	VB
-a	DT
-stronger	JJR
-economic	JJ
-recovery	NN
-in	IN
-a	DT
-context	NN
-of	IN
-price	NN
-stability	NN
-.	.
-
-It	PRP
-will	MD
-continue	VB
-to	TO
-assess	VB
-the	DT
-economic	JJ
-outlook	NN
-in	IN
-light	NN
-of	IN
-incoming	JJ
-information	NN
-and	CC
-is	VBZ
-prepared	VBN
-to	TO
-employ	VB
-its	PRP$
-tools	NNS
-as	IN
-appropriate	JJ
-.	.
-
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
-.	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-William	NNP
-C	NNP
-.	.
-Dudley	NNP
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-Elizabeth	NNP
-A	NNP
-.	.
-Duke	NNP
-;	:
-Charles	NNP
-L	NNP
-.	.
-Evans	NNP
-;	:
-Sarah	NNP
-Bloom	NNP
-Raskin	NNP
-;	:
-Daniel	NNP
-K	NNP
-.	.
-Tarullo	''
-;	:
-and	CC
-Janet	NNP
-L	NNP
-.	.
-Yellen	''
-.	.
-
-Voting	NNP
-against	IN
-the	DT
-action	NN
-were	VBD
-Richard	NNP
-W	NNP
-.	.
-Fisher	NNP
-,	,
-Narayana	DT
-Kocherlakota	NN
-,	,
-and	CC
-Charles	NNP
-I	NNP
-.	.
-Plosser	''
-,	,
-who	WP
-did	VBD
-not	RB
-support	VB
-additional	JJ
-policy	NN
-accommodation	NN
-at	IN
-this	DT
-time	NN
-.	.
-
-Information	NNP
-received	VBD
-since	IN
-the	DT
-Federal	NNP
-Open	NNP
-Market	NNP
-Committee	NNP
-met	VBD
-in	IN
-January	NNP
-suggests	VBZ
-a	DT
-return	NN
-to	TO
-moderate	JJ
-economic	JJ
-growth	NN
-following	NN
-a	DT
-pause	NN
-late	JJ
-last	JJ
-year	NN
-.	.
-
-Labor	NNP
-market	NN
-conditions	NNS
-have	VBP
-shown	VBN
-signs	NNS
-of	IN
-improvement	NN
-in	IN
-recent	JJ
-months	NNS
-but	CC
-the	DT
-unemployment	NN
-rate	NN
-remains	VBZ
-elevated	JJ
-.	.
-
-Household	NNP
-spending	NN
-and	CC
-business	NN
-fixed	VBN
-investment	NN
-advanced	VBD
-,	,
-and	CC
-the	DT
-housing	NN
-sector	NN
-has	VBZ
-strengthened	VBN
-further	JJ
-,	,
-but	CC
-fiscal	JJ
-policy	NN
-has	VBZ
-become	VBN
-somewhat	RB
-more	JJR
-restrictive	JJ
-.	.
-
-Inflation	NN
-has	VBZ
-been	VBN
-running	VBG
-somewhat	RB
-below	IN
-the	DT
-Committee	NNP
-'s	POS
-longer-run	JJ
-objective	NN
-,	,
-apart	RB
-from	IN
-temporary	JJ
-variations	NNS
-that	IN
-largely	RB
-reflect	VB
-fluctuations	NNS
-in	IN
-energy	NN
-prices	NNS
-.	.
-
-Longer-term	JJ
-inflation	NN
-expectations	NNS
-have	VBP
-remained	VBN
-stable	JJ
-.	.
-
-Consistent	JJ
-with	IN
-its	PRP$
-statutory	JJ
-mandate	NN
-,	,
-the	DT
-Committee	NNP
-seeks	VBZ
-to	TO
-foster	VB
-maximum	NN
-employment	NN
-and	CC
-price	NN
-stability	NN
-.	.
-
-The	DT
-Committee	NNP
-expects	VBZ
-that	IN
-,	,
-with	IN
-appropriate	JJ
-policy	NN
-accommodation	NN
-,	,
-economic	JJ
-growth	NN
-will	MD
-proceed	VB
-at	IN
-a	DT
-moderate	JJ
-pace	NN
-and	CC
-the	DT
-unemployment	NN
-rate	NN
-will	MD
-gradually	RB
-decline	VB
-toward	IN
-levels	NNS
-the	DT
-Committee	NNP
-judges	NNS
-consistent	JJ
-with	IN
-its	PRP$
-dual	JJ
-mandate	NN
-.	.
-
-The	DT
-Committee	NNP
-continues	VBZ
-to	TO
-see	VB
-downside	NN
-risks	NNS
-to	TO
-the	DT
-economic	JJ
-outlook	NN
-.	.
-
-The	DT
-Committee	NNP
-also	RB
-anticipates	VBZ
-that	IN
-inflation	NN
-over	IN
-the	DT
-medium	NN
-term	NN
-likely	JJ
-will	MD
-run	VB
-at	IN
-or	CC
-below	IN
-its	PRP$
-2	CD
-percent	NN  U
-objective	NN
-.	.
-
-To	TO
-support	VB
-a	DT
-stronger	JJR
-economic	JJ
-recovery	NN
-and	CC
-to	TO
-help	VB
-ensure	VB
-that	IN
-inflation	NN
-,	,
-over	IN
-time	NN
-,	,
-is	VBZ
-at	IN
-the	DT
-rate	NN
-most	RBS
-consistent	JJ
-with	IN
-its	PRP$
-dual	JJ
-mandate	NN
-,	,
-the	DT
-Committee	NNP
-decided	VBD  A
-to	TO
-continue	VB
-purchasing	NN
-additional	JJ
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-at	IN
-a	DT
-pace	NN
-of	IN
-$	$
-40	CD
-billion	CD
-per	IN
-month	NN
-and	CC
-longer-term	JJ
-Treasury	NNP
-securities	NNS
-at	IN
-a	DT
-pace	NN
-of	IN
-$	$
-45	CD
-billion	CD
-per	IN
-month	NN
-.	.
-
-The	DT
-Committee	NNP
-is	VBZ
-maintaining	VBG
-its	PRP$
-existing	JJ
-policy	NN
-of	IN
-reinvesting	VBG
-principal	NN
-payments	NNS
-from	IN
-its	PRP$
-holdings	NNS
-of	IN
-agency	NN
-debt	NN
-and	CC
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-in	IN
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-and	CC
-of	IN
-rolling	VBG
-over	IN
-maturing	VBG
-Treasury	NNP
-securities	NNS
-at	IN
-auction	NN
-.	.
-
-Taken	VBN
-together	RB
-,	,
-these	DT
-actions	NNS
-should	MD
-maintain	VB
-downward	JJ
-pressure	NN
-on	IN
-longer-term	JJ
-interest	NN
-rates	NNS
-,	,
-support	NN
-mortgage	NN
-markets	NNS
-,	,
-and	CC
-help	NN
-to	TO
-make	VB
-broader	JJR
-financial	JJ
-conditions	NNS
-more	RBR
-accommodative	JJ
-.	.
-
-The	DT
-Committee	NNP
-will	MD
-closely	RB
-monitor	VB
-incoming	JJ
-information	NN
-on	IN
-economic	JJ
-and	CC
-financial	JJ
-developments	NNS
-in	IN
-coming	VBG
-months	NNS
-.	.
-
-The	DT
-Committee	NNP
-will	MD
-continue	VB
-its	PRP$
-purchases	NNS
-of	IN
-Treasury	NNP
-and	CC
-agency	NN
-mortgage-backed	JJ
-securities	NNS
-,	,
-and	CC
-employ	VB
-its	PRP$
-other	JJ
-policy	NN
-tools	NNS
-as	IN
-appropriate	JJ
-,	,
-until	IN
-the	DT
-outlook	NN
-for	IN
-the	DT
-labor	NN
-market	NN
-has	VBZ
-improved	VBN
-substantially	RB
-in	IN
-a	DT
-context	NN
-of	IN
-price	NN
-stability	NN
-.	.
-
-In	IN
-determining	VBG
-the	DT
-size	NN
-,	,
-pace	NN
-,	,
-and	CC
-composition	NN
-of	IN
-its	PRP$
-asset	NN
-purchases	NNS
-,	,
-the	DT
-Committee	NNP
-will	MD
-continue	VB
-to	TO
-take	VB
-appropriate	JJ
-account	NN
-of	IN
-the	DT
-likely	JJ
-efficacy	NN
-and	CC
-costs	NNS
-of	IN
-such	JJ
-purchases	NNS
-as	IN
-well	RB
-as	IN
-the	DT
-extent	NN
-of	IN
-progress	NN
-toward	IN
-its	PRP$
-economic	JJ
-objectives	NNS
-.	.
-
-To	TO
-support	VB
-continued	VBN
-progress	NN
-toward	IN
-maximum	NN
-employment	NN
-and	CC
-price	NN
-stability	NN
-,	,
-the	DT
-Committee	NNP
-expects	VBZ
-that	IN
-a	DT
-highly	RB
-accommodative	IN
-stance	NN
-of	IN
-monetary	JJ
-policy	NN
-will	MD
-remain	VB
-appropriate	JJ
-for	IN
-a	DT
-considerable	JJ
-time	NN
-after	IN
-the	DT
-asset	NN
-purchase	NN
-program	NN
-ends	VBZ
-and	CC
-the	DT
-economic	JJ
-recovery	NN
-strengthens	VBZ
-.	.
-
-In	IN
-particular	JJ
-,	,
-the	DT
-Committee	NNP
-decided	VBD  A
-to	TO
-keep	VB  D
-the	DT
-target	NN
-range	NN
-for	IN
-the	DT
-federal	JJ  T
-funds	NNS  T
-rate	NN  T
-at	IN  O
-0	CD  N
 to	TO  O
 1/4	VB  N
 percent	NN  U
-and	CC
-currently	RB
-anticipates	VBZ
-that	IN
-this	DT
-exceptionally	RB
-low	JJ
-range	NN
-for	IN
-the	DT
+and	CC  O
+currently	RB	O
+anticipates	VBZ	O
+that	IN	O
+economic	JJ	O
+conditions	NNS	O
+--	:	O
+including	VBG	O
+low	JJ	D	O
+rates	NNS	O
+of	IN	O
+resource	NN	O
+utilization	NN	O
+and	CC	O
+a	DT	O
+subdued	VBN	O
+outlook	NN	O
+for	IN	O
+inflation	NN	O
+over	IN	O
+the	DT	O
+medium	NN	O
+run--are	IN	O
+likely	JJ	O
+to	TO	O
+warrant	VB	O
+exceptionally	RB	O	
+low	JJ	D	O
+levels	NNS	O
+for	IN	O
+the	DT	O
 federal	JJ  T
 funds	NNS  T
 rate	NN  T
-will	MD
-be	VB
-appropriate	JJ
-at	IN
-least	JJS
-as	IN
-long	JJ
-as	IN
-the	DT
-unemployment	NN  O
-rate	NN  O
-remains	VBZ
-above	IN
-6-1/2	DT  N
-percent	NN  U
-,	,
-inflation	NN
-between	IN
-one	CD
-and	CC
-two	CD
-years	NNS
-ahead	RB
-is	VBZ
-projected	VBN
-to	TO
-be	VB
-no	DT
-more	JJR
-than	IN
-a	DT
-half	NN
-percentage	NN
-point	NN
-above	IN
-the	DT
-Committee	NNP
-'s	POS
-2	CD  N
-percent	NN  U
-longer-run	JJ
-goal	NN
-,	,
-and	CC
-longer-term	JJ
-inflation	NN
-expectations	NNS
-continue	VBP
-to	TO
-be	VB
-well	RB
-anchored	VBN
-.	.
+at	IN	O
+least	JJS	O
+through	IN	O
+mid-2013	DT	O
+.	.	O
 
-In	IN
-determining	VBG
-how	WRB
-long	JJ
-to	TO
-maintain	VB
-a	DT
-highly	RB
-accommodative	IN
-stance	NN
-of	IN
-monetary	JJ
-policy	NN
-,	,
-the	DT
-Committee	NNP
-will	MD
-also	RB
-consider	VB
-other	JJ
-information	NN
-,	,
-including	VBG
-additional	JJ
-measures	NNS
-of	IN
-labor	NN
-market	NN
-conditions	NNS
-,	,
-indicators	NNS
-of	IN
-inflation	NN
-pressures	NNS
-and	CC
-inflation	NN
-expectations	NNS
-,	,
-and	CC
-readings	NNS
-on	IN
-financial	JJ
-developments	NNS
-.	.
+The	DT	O
+Committee	NNP	O
+discussed	VBD	O
+the	DT	O
+range	NN	O
+of	IN	O
+policy	NN	T
+tools	NNS	T
+available	JJ	O
+to	TO	O
+promote	VB	O
+a	DT	O
+stronger	JJR	O
+economic	JJ	O
+recovery	NN	O
+in	IN	O
+a	DT	O
+context	NN	O
+of	IN	O
+price	NN	O
+stability	NN	O
+.	.	O
 
-When	WRB
-the	DT
-Committee	NNP
-decides	VBZ
-to	TO
-begin	VB
-to	TO
-remove	VB
-policy	NN
-accommodation	NN
-,	,
-it	PRP
-will	MD
-take	VB
-a	DT
-balanced	JJ
-approach	NN
-consistent	JJ
-with	IN
-its	PRP$
-longer-run	JJ
-goals	NNS
-of	IN
-maximum	NN
-employment	NN
-and	CC
-inflation	NN
-of	IN
-2	CD
-percent	NN  U
-.	.
+It	PRP	O
+will	MD	O
+continue	VB	A
+to	TO	O
+assess	VB	O
+the	DT	O
+economic	JJ	O
+outlook	NN	O
+in	IN	O
+light	NN	O
+of	IN	O
+incoming	JJ	O
+information	NN	O
+and	CC	O
+is	VBZ	O
+prepared	VBN	O
+to	TO	O
+employ	VB	O
+its	PRP$	O
+tools	NNS	O
+as	IN	O
+appropriate	JJ	O
+.	.	O
 
-Voting	NNP
-for	IN
-the	DT
-FOMC	NN
-monetary	JJ
-policy	NN
-action	NN
-were	VBD
-:	:
-Ben	NNP
-S	NNP
-.	.
-Bernanke	''
-,	,
-Chairman	NNP
-;	:
-William	NNP
-C	NNP
-.	.
-Dudley	NNP
-,	,
-Vice	NNP
-Chairman	NNP
-;	:
-James	NNP
-Bullard	NNP
-;	:
-Elizabeth	NNP
-A	NNP
-.	.
-Duke	NNP
-;	:
-Charles	NNP
-L	NNP
-.	.
-Evans	NNP
-;	:
-Jerome	NNP
-H	NNP
-.	.
-Powell	NNP
-;	:
-Sarah	NNP
-Bloom	NNP
-Raskin	NNP
-;	:
-Eric	NNP
-S	NNP
-.	.
-Rosengren	''
-;	:
-Jeremy	NNP
-C	NNP
-.	.
-Stein	NNP
-;	:
-Daniel	NNP
-K	NNP
-.	.
-Tarullo	''
-;	:
-and	CC
-Janet	NNP
-L	NNP
-.	.
-Yellen	''
-.	.
+Voting	NNP	D
+for	IN	A
+the	DT	O
+FOMC	NN	O
+monetary	JJ	O
+policy	NN	O
+action	NN	O
+were	VBD	O
+:	:	O
+Ben	NNP	O
+S	NNP	O
+.	.	O
+Bernanke	NNP	O
+,	,	O
+Chairman	NNP	O
+;	:	O
+William	NNP	O
+C	NNP	O
+.	.	O
+Dudley	NNP	O
+,	,	O
+Vice	NNP	O
+Chairman	NNP	O
+;	:	O
+Elizabeth	NNP	O
+A	NNP	O
+.	.	O
+Duke	NNP	O
+;	:	O
+Charles	NNP	O
+L	NNP	O
+.	.	O
+Evans	NNP	O
+;	:	O
+Sarah	NNP	O
+Bloom	NNP	O
+Raskin	NNP	O
+;	:	O
+Daniel	NNP	O
+K	NNP	O
+.	.	O
+Tarullo	NNP	O
+;	:	O
+and	CC	O
+Janet	NNP	O
+L	NNP	O
+.	.	O
+Yellen	NNP	O
+.	.	O
 
-Voting	NNP
-against	IN
-the	DT
-action	NN
-was	VBD
-Esther	NNP
-L	NNP
-.	.
-George	NNP
-,	,
-who	WP
-was	VBD
-concerned	VBN
-that	IN
-the	DT
-continued	JJ
-high	JJ
-level	NN
-of	IN
-monetary	JJ
-accommodation	NN
-increased	VBD
-the	DT
-risks	NNS
-of	IN
-future	JJ
-economic	JJ
-and	CC
-financial	JJ
-imbalances	NNS
-and	CC
-,	,
-over	IN
-time	NN
-,	,
-could	MD
-cause	VB
-an	DT
-increase	NN  D
-in	IN
-long-term	JJ
-inflation	NN
-expectations	NNS
-.	.
+Voting	NNP	A
+against	IN	D
+the	DT	O
+action	NN	O
+were	VBD	O
+Richard	NNP	O
+W	NNP	O
+.	.	O
+Fisher	NNP	O
+,	,	O
+Narayana	DT	O
+Kocherlakota	NN	O
+,	,	O
+and	CC	O
+Charles	NNP	O
+I	NNP	O
+.	.	O
+Plosser	NNP	O
+,	,	O
+who	WP	O
+did	VBD	O
+not	RB	O
+support	VB	O
+additional	JJ	O
+policy	NN	O
+accommodation	NN	O
+at	IN	O
+this	DT	O
+time	NN	O
+.	.	O
 
