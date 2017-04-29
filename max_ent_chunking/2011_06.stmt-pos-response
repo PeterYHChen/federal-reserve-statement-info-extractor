@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+pick	A
+up	D
+
+
+
+decided	A
+keep	D
+federal	T
+funds	T
+rate	T
+0	N
+1/4	N
+percent	U
+
+low	D
+low	D
+federal	T
+funds	T
+rate	T
+
+600	N
+billion	U
+principal	A
+securities	T
+holdings	T
+
+securities	T
+holdings	T
+holdings	T
+
+
+Voting	A
+

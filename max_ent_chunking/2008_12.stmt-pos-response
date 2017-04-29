@@ -1,0 +1,49 @@
+
+decided	A
+federal	T
+funds	T
+rate	T
+0	N
+1/4	N
+percent	U
+
+
+
+
+
+
+
+low	D
+federal	T
+funds	T
+rate	T
+
+
+agency	T
+debt	T
+mortgage-backed	T
+securities	T
+agency	T
+debt	T
+mortgage-backed	T
+securities	T
+
+
+Term	T
+Asset-Backed	T
+Securities	T
+Loan	T
+Facility	T
+
+
+Voting	A
+
+approved	A
+1/2	N
+percent	U
+
+approved	A
+
+1/4	N
+percent	U
+

@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+
+
+2	N
+percent	U
+
+federal	T
+fiscal	T
+retrenchment	T
+
+decided	A
+
+holdings	T
+agency	T
+mortgage-backed	T
+securities	T
+30	N
+billion	U
+35	N
+billion	U
+holdings	T
+35	N
+billion	U
+40	N
+billion	U
+
+principal	A
+holdings	T
+agency	T
+debt	T
+agency	T
+mortgage-backed	T
+securities	T
+agency	T
+mortgage-backed	T
+securities	T
+Treasury	T
+securities	T
+
+
+Treasury	T
+agency	T
+mortgage-backed	T
+securities	T
+
+
+
+
+low	D
+federal	T
+funds	T
+rate	T
+0	N
+1/4	N
+percent	U
+2	N
+percent	U
+
+consider	A
+
+federal	T
+funds	T
+rate	T
+2	N
+percent	U
+
+2	N
+percent	U
+
+Voting	A
+
