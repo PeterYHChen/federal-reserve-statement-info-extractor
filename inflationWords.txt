@@ -19,5 +19,3 @@ rise
 rose
 expanding
 increase
-expectations
-moving

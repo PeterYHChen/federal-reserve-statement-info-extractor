@@ -65,13 +65,13 @@ public class NaiveExtractor {
         List<String> deflationWords = Files.readAllLines(deflationFile.toPath(), StandardCharsets.UTF_8);
         List<String> inflationWords = Files.readAllLines(inflationFile.toPath(), StandardCharsets.UTF_8);
 
-        deflationWords.forEach((word)->{Stemmer.stem(word);});
+        Stemmer stemmer = new Stemmer();
 
         for (int i = 0; i < deflationWords.size(); i++)
-            deflationWords.set(i, Stemmer.stem(deflationWords.get(i)));
+            deflationWords.set(i, stemmer.stem(deflationWords.get(i)));
 
         for (int i = 0; i < inflationWords.size(); i++)
-            inflationWords.set(i, Stemmer.stem(inflationWords.get(i)));
+            inflationWords.set(i, stemmer.stem(inflationWords.get(i)));
 
         Set<String> uniqueDeflationWords = new HashSet<>(deflationWords);
         Set<String> uniqueInflationWords = new HashSet<>(inflationWords);
@@ -91,11 +91,15 @@ public class NaiveExtractor {
                         sentence.append(" ");
                     sentence.append(words.get(i));
 
-                    if (uniqueDeflationWords.contains(words.get(i))) {
+                    if (words.get(i).equals("increased"))
+                        feedback = feedback;
+
+                    String stemmedWord = stemmer.stem(words.get(i));
+                    if (uniqueDeflationWords.contains(stemmedWord)) {
                         sentence.append("(deflation)");
                         feedback = (feedback == 0? -1 : -feedback);
                     }
-                    if (uniqueInflationWords.contains(words.get(i))) {
+                    if (uniqueInflationWords.contains(stemmedWord)) {
                         sentence.append("(inflation)");
                         feedback = (feedback == 0? 1 :  feedback);
                     }
