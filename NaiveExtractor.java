@@ -54,6 +54,87 @@ public class NaiveExtractor {
 
         extractFundsRate(fileContents, "federalFundsRate.txt");
         extractVotingNames(fileContents, "votingNames.txt");
+        extractInflationStatus(fileContents, "inflationStatus.txt");
+    }
+
+    private static void extractInflationStatus(Map<String, List<List<String>>> files, String outputFile) throws IOException {
+        List<String> results = new ArrayList<>();
+
+        File deflationFile = new File("deflationWords.txt");
+        File inflationFile = new File("inflationWords.txt");
+        List<String> deflationWords = Files.readAllLines(deflationFile.toPath(), StandardCharsets.UTF_8);
+        List<String> inflationWords = Files.readAllLines(inflationFile.toPath(), StandardCharsets.UTF_8);
+
+        deflationWords.forEach((word)->{Stemmer.stem(word);});
+
+        for (int i = 0; i < deflationWords.size(); i++)
+            deflationWords.set(i, Stemmer.stem(deflationWords.get(i)));
+
+        for (int i = 0; i < inflationWords.size(); i++)
+            inflationWords.set(i, Stemmer.stem(inflationWords.get(i)));
+
+        Set<String> uniqueDeflationWords = new HashSet<>(deflationWords);
+        Set<String> uniqueInflationWords = new HashSet<>(inflationWords);
+
+        for (String fileName : files.keySet()) {
+            List<List<String>> sentences = files.get(fileName);
+            results.add(fileName);
+            int numInflation = 0, numDeflation = 0;
+            for (List<String> words : sentences) {
+                boolean isTargetSentence = false;
+                StringBuffer result = new StringBuffer();
+                StringBuffer sentence = new StringBuffer();
+
+                int feedback = 0;
+                for (int i = 0; i < words.size(); i++) {
+                    if (!words.get(i).matches("[^A-Za-z0-9]"))
+                        sentence.append(" ");
+                    sentence.append(words.get(i));
+
+                    if (uniqueDeflationWords.contains(words.get(i))) {
+                        sentence.append("(deflation)");
+                        feedback = (feedback == 0? -1 : -feedback);
+                    }
+                    if (uniqueInflationWords.contains(words.get(i))) {
+                        sentence.append("(inflation)");
+                        feedback = (feedback == 0? 1 :  feedback);
+                    }
+
+                    if (!isTargetSentence && i + 1 < words.size()) {
+                        if (words.get(i).toLowerCase().equals("inflation")) {
+                            isTargetSentence = true;
+                        }
+                    }
+                }
+
+                if (isTargetSentence) {
+                    if (feedback > 0) {
+                        result.append("Inflation");
+                        numInflation++;
+                    }
+                    else if (feedback < 0) {
+                        result.append("Deflation");
+                        numDeflation++;
+                    }
+                    else
+                        result.append("None     ");
+                    result.append(" -").append(sentence);
+
+                    results.add(result.toString());
+                }
+            }
+            if (numDeflation > numInflation)
+                results.add("----------- deflation more overall");
+            else if (numDeflation < numInflation)
+                results.add("----------- inflation more overall");
+            else
+                results.add("----------- remained stable");
+
+            // add an empty line between results from each file
+            results.add("");
+        }
+
+        writeTofiles(results, outputFile);
     }
 
     private static void extractVotingNames(Map<String, List<List<String>>> files, String outputFile) {
