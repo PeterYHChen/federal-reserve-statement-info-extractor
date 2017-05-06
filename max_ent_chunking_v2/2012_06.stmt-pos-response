@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+pick	A
+up	D
+
+
+
+
+
+decided	A
+keep	D
+federal	T
+funds	T
+rate	T
+0	N
+1/4	N
+percent	U
+low	D
+low	D
+federal	T
+funds	T
+rate	T
+2014	N
+
+decided	
+holdings	T
+securities	T
+
+6	N
+years	U
+30	N
+years	U
+Treasury	T
+securities	T
+3	N
+years	U
+
+
+principal	A
+holdings	T
+agency	T
+debt	T
+agency	T
+mortgage-backed	T
+securities	T
+agency	T
+mortgage-backed	T
+securities	T
+
+
+Voting	A
+
+Voting	A
+

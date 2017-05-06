@@ -1,0 +1,47 @@
+
+
+lower	
+
+
+
+
+
+lower	D
+
+federal	T
+funds	T
+rate	T
+0	N
+1/4	N
+percent	U
+low	D
+low	D
+federal	T
+funds	T
+rate	T
+
+keep	D
+securities	T
+principal	A
+agency	T
+debt	T
+agency	T
+mortgage-backed	T
+securities	T
+
+1	N
+Treasury	T
+securities	T
+
+necessary	T
+
+Voting	A
+
+Voting	A
+
+low	D
+federal	T
+funds	T
+rate	T
+
+

@@ -1,0 +1,71 @@
+
+
+lower	D
+
+
+
+
+
+
+
+
+2	N
+percent	U
+
+
+0	N
+1/4	N
+percent	U
+federal	T
+funds	T
+rate	T
+
+2	N
+percent	U
+
+
+
+0	N
+1/4	N
+percent	U
+federal	T
+funds	T
+rate	T
+2	N
+percent	U
+
+federal	T
+funds	T
+rate	T
+
+
+principal	A
+holdings	T
+agency	T
+debt	T
+agency	T
+mortgage-backed	T
+securities	T
+agency	T
+mortgage-backed	T
+securities	T
+Treasury	T
+securities	T
+
+
+2	N
+percent	U
+
+federal	T
+funds	T
+rate	T
+
+Voting	A
+
+Voting	A
+federal	T
+funds	T
+rate	T
+2	N
+percent	U
+
