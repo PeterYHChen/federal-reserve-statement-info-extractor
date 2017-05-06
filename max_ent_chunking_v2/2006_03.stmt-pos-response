@@ -5,14 +5,18 @@ funds	T
 rate	T
 25	N
 basis	U
-points	U
 4-3/4	N
 percent	U
 
 2005	N
+seems	U
 
 
+inflation	MANDATE
+inflation	MANDATE
 
+increases	D
+inflation	MANDATE
 
 keep	D
 
@@ -25,5 +29,6 @@ increase	D
 5-3/4	N
 percent	U
 
+action	A
 approved	A
 

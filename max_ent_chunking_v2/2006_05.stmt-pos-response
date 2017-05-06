@@ -5,14 +5,19 @@ funds	T
 rate	T
 25	N
 basis	U
-points	U
 5	N
 percent	U
 
 
+increases	D
 
+inflation	MANDATE
+inflation	MANDATE
 
+increases	D
+inflation	MANDATE
 
+inflation	MANDATE
 
 
 Voting	A
@@ -23,5 +28,6 @@ increase	D
 6	N
 percent	U
 
+action	A
 approved	A
 

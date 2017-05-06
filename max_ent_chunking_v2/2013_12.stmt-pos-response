@@ -3,12 +3,16 @@
 
 
 
+inflation	MANDATE
 
 
 
 
+inflation	MANDATE
 2	N
 percent	U
+inflation	MANDATE
+inflation	MANDATE
 
 federal	T
 fiscal	T
@@ -30,7 +34,6 @@ billion	U
 45	N
 billion	U
 
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -40,17 +43,22 @@ securities	T
 agency	T
 mortgage-backed	T
 securities	T
-Treasury	T
-securities	T
 
+still-increasing	D
+maintain	D
+inflation	MANDATE
 
-Treasury	T
+continue	D
 agency	T
 mortgage-backed	T
 securities	T
 
+inflation	MANDATE
 
+inflation	MANDATE
 
+monetary	T
+policy	T
 
 low	D
 federal	T
@@ -59,21 +67,38 @@ rate	T
 0	N
 1/4	N
 percent	U
+6-1/2	N
+percent	U
+inflation	MANDATE
 2	N
 percent	U
+inflation	MANDATE
 
-consider	A
+maintain	D
+monetary	T
+policy	T
+inflation	MANDATE
+inflation	MANDATE
 
+maintain	D
 federal	T
 funds	T
 rate	T
+6-1/2	N
+percent	U
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
 2	N
 percent	U
 
 Voting	A
 
 Voting	A
+against	D
+action	A
+inflation	MANDATE
+rate	T
 

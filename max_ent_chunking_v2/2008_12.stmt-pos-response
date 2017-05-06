@@ -11,6 +11,7 @@ percent	U
 
 
 
+inflation	MANDATE
 
 
 low	D
@@ -29,19 +30,18 @@ mortgage-backed	T
 securities	T
 
 
-Term	T
-Asset-Backed	T
-Securities	T
-Loan	T
-Facility	T
 
+continue	D
 
 Voting	A
 
 approved	A
+75-basis-point	N
+decrease	D
 1/2	N
 percent	U
 
+action	A
 approved	A
 
 1/4	N

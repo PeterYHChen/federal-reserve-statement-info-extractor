@@ -2,11 +2,17 @@
 
 
 
+inflation	MANDATE
 
 
 
 
+inflation	MANDATE
 
+inflation	MANDATE
+maintain	D
+monetary	T
+policy	T
 
 decided	A
 keep	D
@@ -17,6 +23,7 @@ rate	T
 1/4	N
 percent	U
 low	D
+inflation	MANDATE
 low	D
 federal	T
 funds	T
@@ -27,7 +34,6 @@ decided
 holdings	T
 securities	T
 
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -37,16 +43,15 @@ securities	T
 agency	T
 mortgage-backed	T
 securities	T
-Treasury	T
-securities	T
 
 securities	T
-holdings	T
 holdings	T
 
 Voting	A
 
 Voting	A
+against	D
+action	A
 low	D
 federal	T
 funds	T

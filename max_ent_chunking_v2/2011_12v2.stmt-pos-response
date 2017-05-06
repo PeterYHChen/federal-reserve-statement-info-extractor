@@ -1,36 +1,20 @@
 
 
+declining	
+equity	T
+
+led	D
 
 
+near-term	T
+economic	T
+outlook	T
+
+inflation	MANDATE
+
+inflation	MANDATE
 
 
-
-
-
-
-decided	A
-holdings	T
-securities	T
-
-principal	A
-holdings	T
-agency	T
-debt	T
-agency	T
-mortgage-backed	T
-securities	T
-agency	T
-mortgage-backed	T
-securities	T
-Treasury	T
-securities	T
-
-securities	T
-holdings	T
-holdings	T
-
-decided	
-keep	D
 federal	T
 funds	T
 rate	T
@@ -38,13 +22,35 @@ rate	T
 1/4	N
 percent	U
 low	D
-low	D
 federal	T
 funds	T
 rate	T
 
+decided	A
+750	N
+billion	U
+agency	T
+mortgage-backed	T
+securities	T
+securities	T
+1.25	N
+agency	T
+debt	T
+100	N
+billion	U
+200	N
+billion	U
 
-Voting	A
+decided	A
+300	N
+billion	U
+
+Term	T
+Asset-Backed	T
+Securities	T
+Loan	T
+Facility	T
+
 
 Voting	A
 

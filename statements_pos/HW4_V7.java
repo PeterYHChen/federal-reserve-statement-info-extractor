@@ -245,7 +245,7 @@ public class HW4_V7{
 		POS_VECTOR.add("end");
 		POS_VECTOR.add("start");
 		int line_count = 0;
-		line = br.readLine();
+		//line = br.readLine();
 		while((line = br.readLine()) != null){
 			if (line.isEmpty() && !prev_pos.equals("start") ){
 				++ARC_TABLE[POS_VECTOR.indexOf(prev_pos)][POS_VECTOR.indexOf("end")];

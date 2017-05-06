@@ -3,16 +3,22 @@ decided	A
 federal	T
 funds	T
 rate	T
-75	T
+75	N
+basis	U
 2-1/4	N
 percent	U
 
 
 
 
+inflation	MANDATE
 
+inflation	MANDATE
 
+inflation	MANDATE
+increased	D
 
+inflation	MANDATE
 
 
 
@@ -20,8 +26,11 @@ percent	U
 Voting	A
 
 Voting	A
+against	D
 
 approved	A
+75-basis-point	N
+decrease	D
 2-1/2	N
 percent	U
 

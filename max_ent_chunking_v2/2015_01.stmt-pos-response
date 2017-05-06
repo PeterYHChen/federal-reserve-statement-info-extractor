@@ -1,19 +1,21 @@
 
 
-improved	D
-lower	D
 
 
 
 
 
+inflation	MANDATE
+inflation	MANDATE
 
 
 
 
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
 
 0	N
 1/4	N
@@ -22,17 +24,25 @@ federal	T
 funds	T
 rate	T
 
+maintain	D
 2	N
 percent	U
+inflation	MANDATE
 
+inflation	MANDATE
+inflation	MANDATE
 
+monetary	T
+policy	T
 
+inflation	MANDATE
+increases	D
 federal	T
 funds	T
 rate	T
 
+increases	D
 
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -42,13 +52,14 @@ securities	T
 agency	T
 mortgage-backed	T
 securities	T
-Treasury	T
-securities	T
 
+maintain	D
 
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
 federal	T
 funds	T
 rate	T

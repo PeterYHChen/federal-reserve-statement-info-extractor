@@ -4,14 +4,18 @@
 
 
 
-
-
-pick	A
-up	D
+inflation	MANDATE
 
 
 
 
+
+inflation	MANDATE
+
+inflation	MANDATE
+maintain	D
+monetary	T
+policy	T
 
 decided	A
 keep	D
@@ -22,6 +26,7 @@ rate	T
 1/4	N
 percent	U
 low	D
+inflation	MANDATE
 low	D
 federal	T
 funds	T
@@ -36,13 +41,10 @@ securities	T
 years	U
 30	N
 years	U
-Treasury	T
-securities	T
 3	N
 years	U
 
 
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -57,4 +59,6 @@ securities	T
 Voting	A
 
 Voting	A
+against	D
+action	A
 

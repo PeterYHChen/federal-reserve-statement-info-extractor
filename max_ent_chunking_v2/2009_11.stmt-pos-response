@@ -1,15 +1,18 @@
 
-pick	A
-up	D
 
 
+increased	D
 
 lower	
 
 
 
+inflation	MANDATE
+inflation	MANDATE
 
+continue	D
 
+maintain	D
 federal	T
 funds	T
 rate	T
@@ -17,12 +20,15 @@ rate	T
 1/4	N
 percent	U
 low	D
+inflation	MANDATE
+inflation	MANDATE
 low	D
 federal	T
 funds	T
 rate	T
 
 1.25	N
+trillion	U
 agency	T
 mortgage-backed	T
 securities	T
@@ -46,6 +52,7 @@ mortgage-backed	T
 securities	T
 2010	N
 
+continue	D
 securities	T
 
 

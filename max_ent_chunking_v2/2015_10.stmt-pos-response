@@ -1,17 +1,22 @@
 
 
+increasing	D
 
 
 
 
-lower	D
+inflation	MANDATE
+inflation	MANDATE
 
 
 
 
+low	D
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
 
 0	N
 1/4	N
@@ -22,15 +27,21 @@ rate	T
 
 2	N
 percent	U
+inflation	MANDATE
 
+inflation	MANDATE
+inflation	MANDATE
 
 federal	T
 funds	T
 rate	T
+when	T
+it	T
+has	T
+inflation	MANDATE
 2	N
 percent	U
 
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -40,13 +51,14 @@ securities	T
 agency	T
 mortgage-backed	T
 securities	T
-Treasury	T
-securities	T
 
+maintain	D
 
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
 federal	T
 funds	T
 rate	T
@@ -54,10 +66,11 @@ rate	T
 Voting	A
 
 Voting	A
+against	D
+action	A
 federal	T
 funds	T
 rate	T
 25	N
 basis	U
-points	U
 

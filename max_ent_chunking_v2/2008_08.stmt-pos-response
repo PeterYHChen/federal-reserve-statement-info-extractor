@@ -10,14 +10,24 @@ percent	U
 
 
 
+monetary	T
+policy	T
 
+increases	D
+inflation	MANDATE
 
+inflation	MANDATE
+inflation	MANDATE
 
+inflation	MANDATE
 
+continue	D
 
 Voting	A
 
 Voting	A
+against	D
+increase	D
 federal	T
 funds	T
 rate	T

@@ -1,13 +1,17 @@
 
 
-improved	D
+increased	D
 
 lower	
 
 
 
+inflation	MANDATE
+inflation	MANDATE
 
+continue	D
 
+maintain	D
 federal	T
 funds	T
 rate	T
@@ -20,6 +24,7 @@ funds	T
 rate	T
 
 1.25	N
+trillion	U
 agency	T
 mortgage-backed	T
 securities	T
@@ -32,10 +37,9 @@ debt	T
 
 300	N
 billion	U
-Treasury	T
-securities	T
 2009	N
 
+continue	D
 securities	T
 
 

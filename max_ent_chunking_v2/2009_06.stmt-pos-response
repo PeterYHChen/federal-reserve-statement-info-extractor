@@ -6,8 +6,10 @@ lower
 
 
 
+inflation	MANDATE
 
 
+maintain	D
 federal	T
 funds	T
 rate	T
@@ -20,6 +22,7 @@ funds	T
 rate	T
 
 1.25	N
+trillion	U
 agency	T
 mortgage-backed	T
 securities	T
@@ -30,9 +33,8 @@ debt	T
 
 300	N
 billion	U
-Treasury	T
-securities	T
 
+continue	D
 securities	T
 
 

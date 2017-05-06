@@ -5,24 +5,31 @@ funds	T
 rate	T
 25	N
 basis	U
-points	U
 2	N
 percent	U
 
 
 
 
-improved	D
+inflation	MANDATE
 increased	D
+inflation	MANDATE
 
+inflation	MANDATE
 
+inflation	MANDATE
 
+inflation	MANDATE
 
+monetary	T
+policy	T
 
+continue	D
 
 Voting	A
 
 Voting	A
+against	D
 federal	T
 funds	T
 rate	T
@@ -33,5 +40,6 @@ decrease	D
 2-1/4	N
 percent	U
 
+action	A
 approved	A
 

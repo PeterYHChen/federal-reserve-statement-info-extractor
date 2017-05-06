@@ -1,6 +1,4 @@
 
-pick	A
-up	D
 
 
 lower	
@@ -8,7 +6,10 @@ lower
 
 
 
+inflation	MANDATE
+inflation	MANDATE
 
+maintain	D
 federal	T
 funds	T
 rate	T
@@ -16,12 +17,15 @@ rate	T
 1/4	N
 percent	U
 low	D
+inflation	MANDATE
+inflation	MANDATE
 low	D
 federal	T
 funds	T
 rate	T
 
 1.25	N
+trillion	U
 agency	T
 mortgage-backed	T
 securities	T
@@ -32,6 +36,7 @@ debt	T
 
 2010	N
 
+continue	D
 securities	T
 
 1	N
@@ -39,28 +44,10 @@ securities	T
 25	N
 2009	N
 
-Primary	T
-Dealer	T
-Credit	T
-Facility	T
-Term	T
-Securities	T
-Lending	T
-Facility	T
 
 1	N
-Term	T
-Auction	T
-Facility	T
-will	T
-continue	D
 2010	N
 
-Term	T
-Asset-Backed	T
-Securities	T
-Loan	T
-Facility	T
 30	N
 2010	N
 mortgage-backed	T
@@ -68,7 +55,6 @@ securities	T
 31	N
 2010	N
 
-necessary	T
 
 Voting	A
 

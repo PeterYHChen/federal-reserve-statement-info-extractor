@@ -5,7 +5,6 @@ funds	T
 rate	T
 50	N
 basis	U
-points	U
 1	N
 percent	U
 
@@ -13,6 +12,7 @@ percent	U
 
 
 
+inflation	MANDATE
 
 
 

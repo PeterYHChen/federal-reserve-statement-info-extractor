@@ -8,18 +8,27 @@ rate	T
 percent	U
 
 
+inflation	MANDATE
+inflation	MANDATE
 
+inflation	MANDATE
+inflation	MANDATE
+monetary	T
+policy	T
+actions	T
 
+inflation	MANDATE
 
+inflation	MANDATE
 
 Voting	A
 
 Voting	A
+against	D
+increase	D
 25	N
 basis	U
-points	U
 federal	T
 funds	T
 rate	T
-target	T
 

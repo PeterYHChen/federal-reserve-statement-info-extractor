@@ -4,23 +4,25 @@
 
 
 
+inflation	MANDATE
 
 
 
 
+inflation	MANDATE
 2	N
 percent	U
 
+inflation	MANDATE
+continue	D
 agency	T
 mortgage-backed	T
 securities	T
 40	N
 billion	U
 
+continue	D
 holdings	T
-Treasury	T
-securities	T
-principal	A
 holdings	T
 agency	T
 debt	T
@@ -31,15 +33,19 @@ agency	T
 mortgage-backed	T
 securities	T
 
+increase	D
 85	N
 billion	U
 
 
+continue	D
 agency	T
 mortgage-backed	T
 securities	T
 
 
+monetary	T
+policy	T
 
 decided	
 keep	D
@@ -57,6 +63,10 @@ rate	T
 Voting	A
 
 Voting	A
+against	D
+action	A
+monetary	T
+policy	T
 low	D
 federal	T
 funds	T

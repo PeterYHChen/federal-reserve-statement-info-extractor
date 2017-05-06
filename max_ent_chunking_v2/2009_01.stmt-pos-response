@@ -16,10 +16,11 @@ rate	T
 
 
 
-improved	D
 
 
+inflation	MANDATE
 
+inflation	MANDATE
 
 
 keep	D
@@ -30,15 +31,13 @@ mortgage-backed	T
 securities	T
 
 
-Term	T
-Asset-Backed	T
-Securities	T
-Loan	T
-Facility	T
 
-lending	D
+continue	D
 
 Voting	A
 
 Voting	A
+against	D
+monetary	T
+base	T
 
