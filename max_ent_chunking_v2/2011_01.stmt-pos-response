@@ -1,6 +1,6 @@
 
 
-lower	
+unemployment	MANDATE
 
 
 
@@ -9,6 +9,8 @@ inflation	MANDATE
 inflation	MANDATE
 
 
+unemployment	MANDATE
+rate	T
 inflation	MANDATE
 low	D
 

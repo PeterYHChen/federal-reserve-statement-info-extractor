@@ -1,5 +1,7 @@
 
 
+unemployment	MANDATE
+rate	T
 
 
 
@@ -8,6 +10,8 @@ inflation	MANDATE
 
 
 
+unemployment	MANDATE
+rate	T
 
 
 increase	D
@@ -35,7 +39,7 @@ funds	T
 rate	T
 2014	N
 
-decided	
+decided	A
 holdings	T
 securities	T
 

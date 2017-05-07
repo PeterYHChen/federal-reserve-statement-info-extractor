@@ -1,5 +1,7 @@
 
 
+unemployment	MANDATE
+rate	T
 
 
 
@@ -47,7 +49,7 @@ securities	T
 monetary	T
 policy	T
 
-decided	
+decided	A
 keep	D
 federal	T
 funds	T

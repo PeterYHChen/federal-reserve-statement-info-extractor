@@ -1,5 +1,7 @@
 
 
+unemployment	MANDATE
+rate	T
 
 
 2	N
@@ -33,7 +35,7 @@ increase	D
 federal	T
 funds	T
 rate	T
-decided	
+decided	A
 
 monetary	T
 policy	T

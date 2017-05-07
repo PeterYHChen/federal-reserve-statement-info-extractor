@@ -1,12 +1,16 @@
 
 
 
+unemployment	MANDATE
+rate	T
 
 
 
 inflation	MANDATE
 
 
+unemployment	MANDATE
+rate	T
 
 
 inflation	MANDATE
@@ -70,6 +74,8 @@ rate	T
 0	N
 1/4	N
 percent	U
+unemployment	MANDATE
+rate	T
 6-1/2	N
 percent	U
 inflation	MANDATE
@@ -87,6 +93,9 @@ maintain	D
 federal	T
 funds	T
 rate	T
+unemployment	MANDATE
+rate	T
+declines	T
 6-1/2	N
 percent	U
 inflation	MANDATE

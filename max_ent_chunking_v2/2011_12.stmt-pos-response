@@ -1,12 +1,15 @@
 
 
+unemployment	MANDATE
+rate	T
 
 increasing	D
-less	
 
 inflation	MANDATE
 
 
+unemployment	MANDATE
+rate	T
 
 
 inflation	MANDATE
@@ -33,7 +36,7 @@ securities	T
 securities	T
 holdings	T
 
-decided	
+decided	A
 keep	D
 federal	T
 funds	T

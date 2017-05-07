@@ -1,5 +1,7 @@
 
 
+unemployment	MANDATE
+rate	T
 
 
 
@@ -57,6 +59,8 @@ percent	U
 low	D
 federal	T
 funds	T
+rate	T
+unemployment	MANDATE
 rate	T
 6-1/2	N
 percent	U

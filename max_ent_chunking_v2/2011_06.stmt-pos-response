@@ -8,6 +8,10 @@
 inflation	MANDATE
 
 
+unemployment	MANDATE
+rate	T
+unemployment	MANDATE
+rate	T
 
 inflation	MANDATE
 increases	D
