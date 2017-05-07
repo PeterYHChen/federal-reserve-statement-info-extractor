@@ -32,3 +32,5 @@ below
 lower
 anchored
 shortfall
+moderate
+maintain

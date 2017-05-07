@@ -91,17 +91,14 @@ public class NaiveExtractor {
                         sentence.append(" ");
                     sentence.append(words.get(i));
 
-                    if (words.get(i).equals("increased"))
-                        feedback = feedback;
-
                     String stemmedWord = stemmer.stem(words.get(i));
                     if (uniqueDeflationWords.contains(stemmedWord)) {
                         sentence.append("(deflation)");
-                        feedback = (feedback == 0? -1 : -feedback);
+                        feedback -= 1;
                     }
                     if (uniqueInflationWords.contains(stemmedWord)) {
                         sentence.append("(inflation)");
-                        feedback = (feedback == 0? 1 :  feedback);
+                        feedback += 1;
                     }
 
                     if (!isTargetSentence && i + 1 < words.size()) {
