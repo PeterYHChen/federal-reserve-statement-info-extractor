@@ -42,10 +42,13 @@ Work Flow:
 
 Develop a tagging system (our own), and identify number values and action words, for example:
 
-    O (other)
+    
+    D (direction)
+    T (policy tool)
     N (number value)
     A (action)
     U (unit)
+    O (other)
 
     In  O
     view  O
