@@ -8,14 +8,6 @@ FOMC statements are impactful and market moving. There is much information to ex
 statement, such as sentiment of the federal reserve’s view on economic growth and inflation or the
 choice the open markets committee made for the base interest rate. 
 
-Feedback from the Professor:
-
-```
-Looks interesting but it's quite a mix of tasks, including sentiment analysis, information extraction, and 
-some unspecified text comparison.  
-
-The extraction is a substantial job in itself, so you probably will want to cut back on the total number of tasks.
-```
 
 The following ideas are:
 
