@@ -12,7 +12,7 @@ public class NaiveExtractor {
 
     public static void main (String[] args) throws IOException {
         if (args.length != 1) {
-            System.err.println("PosTagger takes 1 arguments:  java FeatureBuilder training.directory");
+            System.err.println("PosTagger takes 1 arguments:  java NaiveExtractor text");
             System.exit(1);
         }
 
